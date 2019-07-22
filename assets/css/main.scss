@@ -1,0 +1,160 @@
+---
+# Add a comment to make this file sass-y.
+# Change this file for any custom CSS.
+---
+
+/* We need to add display:inline in order to align the '>>' of the 'read more' link */
+.post-excerpt p {
+	display: inline;
+}
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+	"syntax",
+    "starsnonscss"
+;
+
+.site-content {
+	padding-top: 0;
+}
+
+/* Ensure main title height is large enough and then is responsive */
+
+.mainheading-home {
+	color: #ffffff;
+	text-align: center;
+	height: 12em;
+	padding: 4em 0 0;
+	background-image: 
+		    linear-gradient(
+		      rgba(0, 0, 0, 0.5),
+		      rgba(0, 0, 0, 0.5)
+		    ),
+		    url('/assets/images/hero-image.jpg');
+	background-position: bottom; 
+	background-size: cover; 
+	width: 100vw;
+	margin-bottom: 25px;
+	position: relative;
+}
+
+@media only screen and (min-width: 20.0625em) {
+	.mainheading-home {
+		height: 15em;
+	}
+}
+
+@media only screen and (min-width: 40.0625em) {
+	.mainheading-home {
+		height: 15em;
+
+	}
+}
+
+@media only screen and (min-width: 60.0625em) {
+	.mainheading-home {
+		height: 20em;
+		background-image: 
+		    linear-gradient(
+		      to top,
+		      rgba(0, 0, 0, 0),
+		      rgba(0, 0, 0, 0.4)
+		    ),
+		    url('/assets/images/hero-image.jpg');
+	}
+}
+
+@media only screen and (min-width: 64.0625em) {
+	.mainheading-home {
+		height: 30em;
+	}
+}
+
+/* Ensure text in the center of hero image is responsive */
+
+@media only screen and (min-width: 20.0625em) {
+	.mainheading-home {
+ 		padding: 3em 3em 0;
+	}
+}
+
+@media only screen and (min-width: 40.0625em) {
+	.mainheading-home {
+		padding: 3em 3em 0;
+	}
+}
+
+@media only screen and (min-width: 60.0625em) {
+	.mainheading-home {
+		padding: 3em 3em 0;
+	}
+}
+
+@media only screen and (min-width: 64.0625em) {
+	.mainheading-home {
+		padding: 3em 5em 0;
+	}
+}
+
+/* Top navigation */
+
+.site-content {
+	margin-top: 53px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: rgba(0, 0, 0, 0.8);
+}
+
+.ml-auto {
+	width: 100%;
+}
+
+.nav-left {
+	flex: 1;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.nav-center {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 700;
+}
+
+.nav-right {
+	flex: 1;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+/* Submenu Navigation */
+
+.homesubmenu {
+	text-align: center;
+	justify-content: space-evenly;
+	display: flex;
+	align-items: center;
+	padding: 0;
+	list-style: none;
+	margin: 0;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: 0 auto;
+}
+
+.homesubmenu li {
+	padding: 1rem;
+}
+
+@media only screen and (max-width: 40.0625em) {
+	.homesubmenu {
+		display: none;
+	}
+}
