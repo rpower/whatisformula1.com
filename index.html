@@ -5,57 +5,30 @@ title: Home
 
 {% if page.url == "/" %}
 
-<!-- Featured
+<!-- Next race
 ================================================== -->
-<section class="featured-posts">
+<section class="next-race">
     <div class="section-title">
-        <h2><span>Featured</span></h2>
+        <h2><span>When is the next race?</span></h2>
     </div>
     <div class="row">
 
-    {% for post in site.posts %}
+    {% include nextrace.html %}
 
-        {% if post.featured == true %}
+    </div>
+</section>
 
-            {% include featuredbox.html %}
+<!-- Quick summary
+================================================== -->
+<section class="next-race">
+    <div class="section-title">
+        <h2><span>What is FORMULA 1?</span></h2>
+    </div>
+    <div class="row">
 
-        {% endif %}
-
-    {% endfor %}
+    {% include homepagesummary.html %}
 
     </div>
 </section>
 
 {% endif %}
-
-<!-- Posts Index
-================================================== -->
-<section class="recent-posts">
-
-    <div class="section-title">
-
-        <h2><span>All Stories</span></h2>
-
-    </div>
-
-    <div class="row listrecent">
-
-        {% for post in paginator.posts %}
-
-        {% include postbox.html %}
-
-        {% endfor %}
-
-    </div>
-
-</section>
-
-<!-- Pagination
-================================================== -->
-<div class="bottompagination">
-<div class="pointerup"><i class="fa fa-caret-up"></i></div>
-<span class="navigation" role="navigation">
-    {% include pagination.html %}
-</span>
-</div>
-

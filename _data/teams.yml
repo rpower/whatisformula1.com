@@ -1,0 +1,60 @@
+- name: Mercedes
+  full_name: Mercedes-AMG Petronas Motorsport
+  country: Germany
+  country-code: de
+  description: Mercedes are the reigning World Constructors' Champions, meaning they are the team to beat in 2019. Having built a car which is fast in almost all areas of the track, other teams will be looking to knock them off their perch.
+  engine: Mercedes
+- name: Ferrari
+  full_name: Scuderia Ferrari
+  country: Italy
+  country-code: it
+  description: Historic Ferrari are the most successful Formula 1 constructor ever with 16 titles to their name. However, their last title came in 2008 and their passionate fans around the world are hoping to win that title again.
+  engine: Ferrari
+- name: Red Bull
+  full_name: Red Bull Racing
+  country: Austria
+  country-code: at
+  description: Despite winning 4 World Constructors' Championships in a row between 2010 and 2013, Red Bull have not been able to repeat that same success and are up their with Ferrari as being the most credible threats to Mercedes dominance.
+  engine: Honda
+- name: Renault
+  full_name: Renault
+  country: France
+  country-code: fr
+  description: Renault are looking to improve their engine to build upon what was a strong season in 2018. Bringing on experienced race-winner Daniel Ricciardo is a statement of intent for the French constructor.
+  engine: Renault
+- name: McLaren
+  full_name: McLaren
+  country: United Kingdom
+  country-code: gb
+  engine: Renault
+  description: The British constructor, who rely on Renault for their engines, are in a rebuilding phase following a poor 2018 season. For the first time this season, they replaced both drivers at the same time and have been starting to look like the over-performing team, best of the rest outside of the top 3 teams.
+- name: Haas
+  full_name: Haas
+  country: United States
+  country-code: us
+  engine: Ferrari
+  description: Based in the United States, Haas are the newest constructor to enter Formula 1 and came into this season looking to compete with Renault to become the best constructor outside of the top 3 teams.
+- name: Racing Point
+  full_name: SportPesa Racing Point
+  country: United Kingdom
+  country-code: gb
+  engine: Mercedes
+  description: After financial difficulties during the last season, the old Force India team was saved from administration by Lance Strolls father and renamed Racing Point.
+- name: Williams
+  full_name: ROKiT Williams Racing
+  country: United Kingdom
+  country-code: gb
+  engine: Mercedes
+  description: Despite being the second-most successful F1 team after Ferrari (with 9 titles to their name), they have been slipping backwards and are bringing up the rear of the pack nowadays.
+- name: Toro Rosso
+  full_name: Red Bull Toro Rosso
+  country: Italy
+  country-code: it
+  engine: Honda
+  description: Toro Rosso is the sister-team of Red Bull and is tradionally used to develop drivers before promoting them into the main team.
+- name: Alfa Romeo
+  full_name: Alfa Romeo Racing
+  country: Switzerland
+  country-code: ch
+  engine: Ferrari
+  description: Formerly Sauber, the Alfa Romeo team use their close ties with Ferrari to help develop their drivers. This year they'll brought on Kimi Räikkönen who was previously at Ferrari.

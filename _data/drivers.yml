@@ -1,0 +1,102 @@
+- name: Lewis Hamilton
+  team: Mercedes
+  country: United Kingdom
+  country-code: gb
+  code: ham
+  description: The defending World Drivers' Champion is looking to win his 6th championship this year.
+- name: Valtteri Bottas
+  team: Mercedes
+  country: Finland
+  country-code: fi
+  code: bot
+  description: Valterri is in his third year with Mercedes and is increasingly under pressure to perform as well as his teammate.
+- name: Sebastian Vettel
+  team: Ferrari
+  country: Germany
+  country-code: de
+  description: Having previously won 4 World Drivers' Championships in a row with Red Bull, Vettel attempts to win his first championship with Ferrari.
+- name: Charles Leclerc
+  team: Ferrari
+  country: Monaco
+  country-code: mc
+  description: In his second year as a full time F1 driver, Leclerc is aiming to impress in his new team, the historic Ferrari.
+- name: Max Verstappen
+  team: Red Bull
+  country: Netherlands
+  country-code: nl
+  description: In 2016, Max became the youngest ever race-winner. Now in his fifth season in Formula 1, the Dutchman continues to set new records.
+- name: Alexander Albon
+  team: Red Bull
+  country: Thailand
+  country-code: th
+  description: In only his first year driving a Formula 1 car, and then having been promoted mid-season from the sister team, Toro Rosso, Alex is only the second Thai driver to compete in F1.
+- name: Daniel Ricciardo
+  team: Renault
+  country: Australia
+  country-code: au
+  description: The charismatic Ricciardo moved from the Red Bull team to Renault at the end of the previous season, but isn't having much success on track.
+- name: Nico Hulkenberg
+  team: Renault
+  country: Germany
+  country-code: de
+  description: Nico has the record for most Formula 1 starts without a podium finish, in his tenth season he aims to quash that record.
+- name: Kimi Räikkönen
+  team: Alfa Romeo
+  country: Finland
+  country-code: fi
+  description: At 39 years old, Kimi is the veteran among the drivers and moved from Ferrari to Alfa Romeo at the end of last season.
+- name: Antonio Giovinazzi
+  team: Alfa Romeo
+  country: Italy
+  country-code: it
+  description: Antonio is part of the Ferrari driver program and has been selected by Ferrari to partner Kimi at Alfa Romeo.
+- name: Romain Grosjean
+  team: Haas
+  country: France
+  country-code: fr
+  description: After a number of incidents on track and a run of poor results, Romain is under-pressure to perform at Haas.
+- name: Kevin Magnussen
+  team: Haas
+  country: Denmark
+  country-code: dk
+  description: Renowned for his close and aggresive driving style, Kevin is driving to save his seat in Formula 1.
+- name: Lando Norris
+  team: McLaren
+  country: United Kingdom
+  country-code: gb
+  description: The 19 year old rookie Lando was promoted into McLaren this year and has impressed with a string of impressive results.
+- name: Carlos Sainz
+  team: McLaren
+  country: Spain
+  country-code: es
+  description: The Spaniard Sainz takes over Fernando Alonso's seat which he vacated at the end of last season. Carlos hopes to continue to over-achieve in whichever car he's in.
+- name: Sergio Pérez
+  team: Racing Point
+  country: Mexico
+  country-code: mx
+  description: Sergio "Checo" Pérez is often described as being 'underrated' while quietly achieving consistently good results on track.
+- name: Lance Stroll
+  team: Racing Point
+  country: Canada
+  country-code: ca
+  description: Stroll's father recently saved Racing Point from administration and has been given a seat at the team this year having raced for Williams in the previous season.
+- name: Pierre Gasly
+  team: Toro Rosso
+  country: France
+  country-code: fr
+  description: Poor performances on track gave bosses at Red Bull cause to demote Gasly back to the team he raced for last season.
+- name: Daniil Kvyat
+  team: Toro Rosso
+  country: Russia
+  country-code: ru
+  description: Having previously raced for Red Bull, Kyvat was invited back to Formula 1 to compete after a year out of the sport.
+- name: George Russell
+  team: Williams
+  country: United Kingdom
+  country-code: gb
+  description: The rookie George won Formula 2 championship (a feeder series below Formula 1) last season and now competes in F1 as part of the Williams team. However the Williams car has been consistently at the back of the pack.
+- name: Robert Kubica
+  team: Williams
+  country: Poland
+  country-code: pl
+  description: After a rallying accident in 2011 which his right forearm was partially severed, Robert Kubica returns as a Formula 1 driver for Williams.

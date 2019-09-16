@@ -1,0 +1,33 @@
+<!-- begin page -->
+<div class="col-lg-4 col-md-6 mb-30px card-group">
+    <div class="card h-100">
+        <div class="maxthumb">
+            <a href="{{ site.baseurl }}{{ sorted_page.url }}">
+                {% if sorted_page.image %}
+
+                    {% if site.lazyimages == "enabled" %}
+                        <img class="img-fluid lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="{% if sorted_page.image contains "://" %}{{ sorted_page.image }}{% else %}{{ site.baseurl }}/assets/images/pages/{{ sorted_page.image }}-small.jpg{% endif %}" alt="{{ sorted_page.title }}">
+                    {% else %}
+                        <img class="img-fluid" src="{% if sorted_page.image contains "://" %}{{ sorted_page.image }}{% else %}{{ site.baseurl }}/assets/images/pages/{{ sorted_page.image }}-small.jpg{% endif %}" alt="{{ sorted_page.title }}">
+                    {% endif %}
+
+                {% endif %}
+            </a>
+        </div>
+        <div class="card-body">
+            <h2 class="card-title">
+                <a class="text-dark" href="{{ site.baseurl }}{{ sorted_page.url }}">
+                  {{ sorted_page.title }}
+                </a>
+            </h2>
+            <h4 class="card-text">
+              {% if sorted_page.preview-text %}
+                {{ sorted_page.preview-text }}
+              {% else %}
+                {{ sorted_page.content | strip_html | truncatewords:30 }}
+              {% endif %}
+            </h4>
+        </div>
+    </div>
+</div>
+<!-- end page -->
