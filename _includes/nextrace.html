@@ -1,16 +1,16 @@
 <!-- begin next race -->
-{% assign current_date = 'now' | date: '%s' %}
+{%- assign current_date = 'now' | date: '%s' -%}
 
-{% for race in site.data.races %}
-  {% assign race_date = race.race-date | date: '%s' %}
-  {% if race_date >= current_date %}
-    {% assign next_race = race.name %}
-    {% assign next_race_country_code = race.country-code %}
-    {% break %}
-  {% endif %}
-{% endfor %}
+{%- for race in site.data.races -%}
+  {%- assign race_date = race.race-date | date: '%s' -%}
+  {%- if race_date >= current_date -%}
+    {%- assign next_race = race.name -%}
+    {%- assign next_race_country_code = race.country-code -%}
+    {%- break -%}
+  {%- endif -%}
+{%- endfor -%}
 
-<a href="{% link _pages/calendar.md %}" class="next-race text-dark w-100" >
+<a href="{%- link _pages/calendar.md -%}" class="next-race text-dark w-100" >
 
   <div class="col mb-30px">
       <div class="listfeaturedtag h-100">

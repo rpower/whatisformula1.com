@@ -6,7 +6,7 @@
 
 <title>{{ page.title }} | {{site.name}}</title>
 
-{% seo %}
+{%- seo -%}
 
 <link rel="shortcut icon" href="{{ site.baseurl }}/assets/images/favicon.ico" type="image/x-icon">
 <link rel="icon" href="{{ site.baseurl }}/assets/images/favicon.ico" type="image/x-icon">
@@ -23,7 +23,7 @@
 
 </head>
 
-{% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
+{%- capture layout -%}{%- if page.layout -%}layout-{{ page.layout }}{%- endif -%}{%- endcapture -%}
 <body class="{{layout}}">
 	<!-- defer loading of font and font awesome -->
 	<noscript id="deferred-styles">
@@ -50,7 +50,7 @@
             <ul class="navbar-nav ml-auto">
 
                 <li class="nav-item nav-left">
-                <a class="nav-link" href="{% link _pages/calendar.md %}">Next Race</a>
+                <a class="nav-link" href="{%- link _pages/calendar.md -%}">Next Race</a>
                 </li>
 
                 <li class="nav-item nav-center">
@@ -58,7 +58,7 @@
                 </li>
 
                 <li class="nav-item nav-right">
-                <a class="nav-link" href="{% link _pages/rules.md %}">Rules</a>
+                <a class="nav-link" href="{%- link _pages/rules.md -%}">Rules</a>
                 </li>
 
             </ul>
@@ -74,7 +74,7 @@
 
 <div class="site-content">
 
-{% if page.url == "/" %}
+{%- if page.url == "/" -%}
 
 <!-- Site Title
 ================================================== -->
@@ -85,19 +85,19 @@
     </p>
     <!-- Begin Submenu -->
     <ul class="nav justify-content-center nav-fill homesubmenu">
-			{% assign sorted_pages = site.pages | sort: 'order' %}
-			{% for sorted_page in sorted_pages %}
-				{% if sorted_page.order %}
+			{%- assign sorted_pages = site.pages | sort: 'order' -%}
+			{%- for sorted_page in sorted_pages -%}
+				{%- if sorted_page.order -%}
 					<li class="nav-item"><a class="text-light" href="{{ site.baseurl }}{{ sorted_page.url }}">
 						{{ sorted_page.title }}
 					</a></li>
-				{% endif %}
-			{% endfor %}
+				{%- endif -%}
+			{%- endfor -%}
     </ul>
     <!-- End Submenu -->
 </div>
 
-{% endif %}
+{%- endif -%}
 
 <div class="container">
 
@@ -111,18 +111,18 @@
 		<section class="recent-posts">
 
 		    <div class="row listrecent justify-content-center">
-						{% assign sorted_pages = site.pages | sort: 'order' %}
-		        {% for sorted_page in sorted_pages %}
-		            {% if sorted_page.order %}
-									{% if page.title != sorted_page.title %}
-		              	{% include pagepostbox.html %}
-									{% endif %}
-		            {% endif %}
-		        {% endfor %}
-						{% if page.order %}
-							{% assign sorted_page = page %}
-							{% include pagepostbox.html %}
-						{% endif %}
+						{%- assign sorted_pages = site.pages | sort: 'order' -%}
+		        {%- for sorted_page in sorted_pages -%}
+		            {%- if sorted_page.order -%}
+									{%- if page.title != sorted_page.title -%}
+		              	{%- include pagepostbox.html -%}
+									{%- endif -%}
+		            {%- endif -%}
+		        {%- endfor -%}
+						{%- if page.order -%}
+							{%- assign sorted_page = page -%}
+							{%- include pagepostbox.html -%}
+						{%- endif -%}
 		    </div>
 
 		</section>
@@ -157,17 +157,18 @@
 
 <script src="{{ site.baseurl }}/assets/js/mediumish.js"></script>
 
-{% if site.lazyimages == "enabled" %}
+{%- if site.lazyimages == "enabled" -%}
 <script src="{{ site.baseurl }}/assets/js/lazyload.js"></script>
-{% endif %}
+{%- endif -%}
 
 <script src="{{ site.baseurl }}/assets/js/ie10-viewport-bug-workaround.js"></script>
 
-{% if site.environment == "production" %}
-	{% assign matomo_site_id = 1 %}
-{% else %}
-	{% assign matomo_site_id = 2 %}
-{% endif %}
+{%- if site.environment == "production" -%}
+	{%- assign matomo_site_id = 1 -%}
+{%- else -%}
+	{%- assign matomo_site_id = 2 -%}
+{%- endif -%}
+
 <!-- Matomo -->
 <script type="text/javascript">
   var _paq = window._paq || [];

@@ -25,7 +25,7 @@ order: 3
 
     </div>
   </div>
-  {% for team in site.data.teams %}
+  {%- for team in site.data.teams -%}
       <div class="row align-middle border-top py-1 mt-1">
       <div class="col-6 col-sm-6 col-md-3 col-lg-2">
          <img src="/assets/images/flag_placeholder.png" class="flag flag-{{ team.country-code }}" /> <span class="pl-1">{{ team.name }}</span>
@@ -36,21 +36,21 @@ order: 3
       <div class="col-12 col-sm-12 col-md col-lg-3 pl-0">
         <div class="container">
           <div class="row">
-            {% assign driver_number = 0 %}
-            {% for driver in site.data.drivers %}
+            {%- assign driver_number = 0 -%}
+            {%- for driver in site.data.drivers -%}
 
-              {% if driver.team == team.name %}
-              {% assign value = driver_number | modulo: 2 %}
-              {% if value == 0 %}
+              {%- if driver.team == team.name -%}
+              {%- assign value = driver_number | modulo: 2 -%}
+              {%- if value == 0 -%}
                 <div class="col col-lg-12">
-              {% else %}
+              {%- else -%}
                 <div class="col col-lg-12 ml-3 ml-md-0">
-              {% endif %}
+              {%- endif -%}
                   {{ driver.name }}
                 </div>
-              {% endif %}
-              {% assign driver_number = driver_number | plus: 1 %}
-            {% endfor %}
+              {%- endif -%}
+              {%- assign driver_number = driver_number | plus: 1 -%}
+            {%- endfor -%}
           </div>
         </div>
       </div>
@@ -59,5 +59,5 @@ order: 3
       </div>
     </div>
 
-  {% endfor %}
+  {%- endfor -%}
 </div>

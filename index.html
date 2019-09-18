@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-{% if page.url == "/" %}
+{%- if page.url == "/" -%}
 
 <!-- Next race
 ================================================== -->
@@ -13,7 +13,7 @@ title: Home
     </div>
     <div class="row">
 
-    {% include nextrace.html %}
+    {%- include nextrace.html -%}
 
     </div>
 </section>
@@ -26,9 +26,9 @@ title: Home
     </div>
     <div class="row">
 
-    {% include homepagesummary.html %}
+    {%- include homepagesummary.html -%}
 
     </div>
 </section>
 
-{% endif %}
+{%- endif -%}

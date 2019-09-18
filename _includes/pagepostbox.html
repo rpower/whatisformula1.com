@@ -3,15 +3,15 @@
     <div class="card h-100">
         <div class="maxthumb">
             <a href="{{ site.baseurl }}{{ sorted_page.url }}">
-                {% if sorted_page.image %}
+                {%- if sorted_page.image -%}
 
-                    {% if site.lazyimages == "enabled" %}
-                        <img class="card-img-top img-fluid lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="{% if sorted_page.image contains "://" %}{{ sorted_page.image }}{% else %}{{ site.baseurl }}/assets/images/pages/{{ sorted_page.image }}-small.jpg{% endif %}" alt="{{ sorted_page.title }}">
-                    {% else %}
-                        <img class="card-img-top img-fluid" src="{% if sorted_page.image contains "://" %}{{ sorted_page.image }}{% else %}{{ site.baseurl }}/assets/images/pages/{{ sorted_page.image }}-small.jpg{% endif %}" alt="{{ sorted_page.title }}">
-                    {% endif %}
+                    {%- if site.lazyimages == "enabled" -%}
+                        <img class="card-img-top img-fluid lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="{%- if sorted_page.image contains "://" -%}{{ sorted_page.image }}{%- else -%}{{ site.baseurl }}/assets/images/pages/{{ sorted_page.image }}-small.jpg{%- endif -%}" alt="{{ sorted_page.title }}">
+                    {%- else -%}
+                        <img class="card-img-top img-fluid" src="{%- if sorted_page.image contains "://" -%}{{ sorted_page.image }}{%- else -%}{{ site.baseurl }}/assets/images/pages/{{ sorted_page.image }}-small.jpg{%- endif -%}" alt="{{ sorted_page.title }}">
+                    {%- endif -%}
 
-                {% endif %}
+                {%- endif -%}
             </a>
         </div>
         <div class="card-body">
@@ -21,11 +21,11 @@
                 </a>
             </h2>
             <h4 class="card-text">
-              {% if sorted_page.preview-text %}
+              {%- if sorted_page.preview-text -%}
                 {{ sorted_page.preview-text }}
-              {% else %}
+              {%- else -%}
                 {{ sorted_page.content | strip_html | truncatewords:30 }}
-              {% endif %}
+              {%- endif -%}
             </h4>
         </div>
     </div>

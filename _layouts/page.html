@@ -8,18 +8,18 @@ layout: default
     </div>
 
     <!-- Page image -->
-    {% if page.in-page-image %}
+    {%- if page.in-page-image -%}
 
     <figure class="figure pb-1">
-      {% if site.lazyimages == "enabled" %}
-      <img class="featured-image img-fluid lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="{% if page.in-page-image contains "://" %}{{ page.in-page-image }}{% else %}{{ site.baseurl }}/assets/images/pages/{{ page.in-page-image }}.jpg{% endif %}" alt="{{ page.title }}">
-      {% else %}
-      <img class="featured-image img-fluid" src="{% if page.in-page-image contains "://" %}{{ page.in-page-image }}{% else %}{{ site.baseurl }}/assets/images/pages/{{ page.in-page-image }}.jpg{% endif %}" alt="{{ page.title }}">
-      {% endif %}
-      <figcaption class="figure-caption border-bottom pb-2">{{ page.in-page-image-caption }}{% if page.image-credit %} (Photo by {{ page.image-credit }}){% endif %}</figcaption>
+      {%- if site.lazyimages == "enabled" -%}
+      <img class="featured-image img-fluid lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="{%- if page.in-page-image contains "://" -%}{{ page.in-page-image }}{%- else -%}{{ site.baseurl }}/assets/images/pages/{{ page.in-page-image }}.jpg{%- endif -%}" alt="{{ page.title }}">
+      {%- else -%}
+      <img class="featured-image img-fluid" src="{%- if page.in-page-image contains "://" -%}{{ page.in-page-image }}{%- else -%}{{ site.baseurl }}/assets/images/pages/{{ page.in-page-image }}.jpg{%- endif -%}" alt="{{ page.title }}">
+      {%- endif -%}
+      <figcaption class="figure-caption border-bottom pb-2">{{ page.in-page-image-caption }}{%- if page.image-credit -%} (Photo by {{ page.image-credit }}){%- endif -%}</figcaption>
     </figure>
 
-    {% endif %}
+    {%- endif -%}
     <!-- End page image -->
 
     <div class="article-post pb-4">

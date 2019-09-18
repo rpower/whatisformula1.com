@@ -19,14 +19,14 @@ order: 2
       <strong>Team</strong>
     </div>
   </div>
-  {% assign driver_number = 0 %}
-  {% for driver in site.data.drivers %}
-    {% assign value = driver_number | modulo: 2 %}
-    {% if value == 0 %}
+  {%- assign driver_number = 0 -%}
+  {%- for driver in site.data.drivers -%}
+    {%- assign value = driver_number | modulo: 2 -%}
+    {%- if value == 0 -%}
       <div class="row align-middle border-top py-1 mt-1">
-    {% else %}
+    {%- else -%}
       <div class="row align-middle pb-1">
-    {% endif %}
+    {%- endif -%}
       <div class="col-6 col-sm-4">
          <img src="/assets/images/flag_placeholder.png" class="flag flag-{{ driver.country-code }}" /> <span class="pl-1">{{ driver.name }}</span>
       </div>
@@ -38,6 +38,6 @@ order: 2
       </div>
     </div>
 
-  {% assign driver_number = driver_number | plus: 1 %}
-  {% endfor %}
+  {%- assign driver_number = driver_number | plus: 1 -%}
+  {%- endfor -%}
 </div>
