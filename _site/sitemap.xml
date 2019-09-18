@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>/calendar/</loc>
+<loc>https://www.whatisformula1.com/calendar/</loc>
 </url>
 <url>
-<loc>/drivers/</loc>
+<loc>https://www.whatisformula1.com/drivers/</loc>
 </url>
 <url>
-<loc>/history/</loc>
+<loc>https://www.whatisformula1.com/history/</loc>
 </url>
 <url>
-<loc>/</loc>
+<loc>https://www.whatisformula1.com/</loc>
 </url>
 <url>
-<loc>/pitstops/</loc>
+<loc>https://www.whatisformula1.com/pitstops/</loc>
 </url>
 <url>
-<loc>/rules/</loc>
+<loc>https://www.whatisformula1.com/rules/</loc>
 </url>
 <url>
-<loc>/teams/</loc>
+<loc>https://www.whatisformula1.com/teams/</loc>
 </url>
 </urlset>

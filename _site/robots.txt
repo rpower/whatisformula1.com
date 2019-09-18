@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: https://www.whatisformula1.com/sitemap.xml

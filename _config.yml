@@ -5,6 +5,7 @@ description: "Learn about the fastest, most technologically advanced, motorsport
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: ''
+url: 'https://www.whatisformula1.com'
 include: ["_pages"]
 permalink: /:title
 collections_dir: collections
