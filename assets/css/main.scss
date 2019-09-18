@@ -24,7 +24,6 @@
 	color: #ffffff;
 	text-align: center;
 	height: 12em;
-	padding: 4em 0 0;
 	background-image:
 		    linear-gradient(
 		      rgba(0, 0, 0, 0.5),
@@ -33,14 +32,13 @@
 		    url('/assets/images/hero-image.jpg');
 	background-position: bottom;
 	background-size: cover;
-	width: 100vw;
 	margin-bottom: 25px;
 	position: relative;
 }
 
 @media only screen and (min-width: 20.0625em) {
 	.mainheading-home {
-		height: 15em;
+		height: 18em;
 	}
 }
 

@@ -1,14 +1,16 @@
 # Site
 name: "What is FORMULA 1?"
 title: "What is FORMULA 1?"
-description: "Learn about the highest-class of single-seater racing in the world"
+description: "Learn about the fastest, most technologically advanced, motorsport in the world"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: ''
-google_analytics: ''
 include: ["_pages"]
 permalink: /:title
 collections_dir: collections
+
+# Environment
+environment: production
 
 # Plugins
 plugins:

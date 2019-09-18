@@ -78,17 +78,17 @@
 
 <!-- Site Title
 ================================================== -->
-<div class="mainheading mainheading-home">
+<div class="mainheading mainheading-home mb-3">
     <h1 class="sitetitle">{{ site.name }}</h1>
     <p class="lead">
         {{ site.description }}
     </p>
     <!-- Begin Submenu -->
-    <ul class="homesubmenu">
+    <ul class="nav justify-content-center nav-fill homesubmenu">
 			{% assign sorted_pages = site.pages | sort: 'order' %}
 			{% for sorted_page in sorted_pages %}
 				{% if sorted_page.order %}
-					<li><a class="text-light" href="{{ site.baseurl }}{{ sorted_page.url }}">
+					<li class="nav-item"><a class="text-light" href="{{ site.baseurl }}{{ sorted_page.url }}">
 						{{ sorted_page.title }}
 					</a></li>
 				{% endif %}
@@ -162,6 +162,27 @@
 {% endif %}
 
 <script src="{{ site.baseurl }}/assets/js/ie10-viewport-bug-workaround.js"></script>
+
+{% if site.environment == "production" %}
+	{% assign matomo_site_id = 1 %}
+{% else %}
+	{% assign matomo_site_id = 2 %}
+{% endif %}
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//whatisformula1.com/matomo/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '{{ matomo_site_id }}']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//whatisformula1.com/matomo/matomo.php?idsite={{ matomo_site_id }}&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Matomo Code -->
 
 </body>
 </html>
