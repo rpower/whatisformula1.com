@@ -35,7 +35,7 @@ The next race is the <img src="/assets/images/flag_placeholder.png" class="flag 
   {%- when '2' or '22' -%}{{ next_race_day }}nd
   {%- when '3' or '23' -%}{{ next_race_day }}rd
   {%- else -%}{{ next_race_day }}th
-{%- endcase -%} of {{ next_race_month }}</span>.
+{%- endcase -%}&nbsp;of {{ next_race_month }}</span>.
 </div>
 
 Below is the full calendar of races for the 2019 Formula 1 season:
