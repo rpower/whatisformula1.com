@@ -27,7 +27,7 @@ order: 4
 
 The 2019 Formula 1 season is contested over 21 Grand Prix held around the world. These include historic races such as the <img src="/assets/images/flag_placeholder.png" class="flag flag-mc ml-1 mb-2" /> <span class="pl-1 font-weight-bold">Monaco Grand Prix</span> and the <img src="/assets/images/flag_placeholder.png" class="flag flag-gb ml-1 mb-2" /> <span class="pl-1 font-weight-bold">British Grand Prix</span> but also new races such as the return of the <img src="/assets/images/flag_placeholder.png" class="flag flag-fr ml-1 mb-2" /> <span class="pl-1 font-weight-bold">French Grand Prix</span> which was reintroduced in 2018.
 
-In the 2020 season, this will increase to with the introduction of the <img src="/assets/images/flag_placeholder.png" class="flag flag-nl ml-1 mb-2" /> <span class="pl-1 font-weight-bold">Dutch Grand Prix</span> and the <img src="/assets/images/flag_placeholder.png" class="flag flag-vn ml-1 mb-2" /> <span class="pl-1 font-weight-bold">Vietnam Grand Prix</span>.
+In the 2020 season, the number of races will increase with the introduction of the <img src="/assets/images/flag_placeholder.png" class="flag flag-nl ml-1 mb-2" /> <span class="pl-1 font-weight-bold">Dutch Grand Prix</span> and the <img src="/assets/images/flag_placeholder.png" class="flag flag-vn ml-1 mb-2" /> <span class="pl-1 font-weight-bold">Vietnam Grand Prix</span>.
 
 <div class="alert alert-primary" role="alert">
 The next race is the <img src="/assets/images/flag_placeholder.png" class="flag flag-{{ next_race_country_code }} ml-1 mb-2" /> <span class="pl-1 font-weight-bold">{{ next_race }}</span> held in <span class="font-weight-bold">{{ next_race_location }}</span> on the <span class="font-weight-bold">{%- case next_race_day -%}
