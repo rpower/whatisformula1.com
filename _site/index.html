@@ -111,22 +111,173 @@
     <div class="section-title">
         <h2><span>When is the next race?</span></h2>
     </div>
-    <div class="row"><!-- begin next race --><a href="/calendar/" class="next-race text-dark w-100" >
+    <div class="row"><!-- begin next race -->
+<a href="/calendar/" class="next-race text-dark w-100" >
 
   <div class="col mb-30px">
       <div class="listfeaturedtag h-100">
           <div class="row h-100">
               <div class="col-3 col-md-2 col-lg-2">
-                <img src="/assets/images/flags/mx.png" class="card-img-top" />
+                <img class="card-img-top" id="nextraceimg" />
               </div>
-              <div class="my-auto h5 p-2 p-lg-3">
-                Mexican Grand Prix
+              <div class="my-auto h5 p-2 p-lg-3" id="nextracename">
+
               </div>
           </div>
       </div>
   </div>
 
 </a>
+
+<script>
+  var races = [
+    
+      {
+        'name': 'Australian Grand Prix',
+        'date': '2019-03-17',
+        'countryCode': 'au'
+      },
+    
+      {
+        'name': 'Bahrain Grand Prix',
+        'date': '2019-03-31',
+        'countryCode': 'bh'
+      },
+    
+      {
+        'name': 'Chinese Grand Prix',
+        'date': '2019-04-14',
+        'countryCode': 'cn'
+      },
+    
+      {
+        'name': 'Azerbaijan Grand Prix',
+        'date': '2019-04-28',
+        'countryCode': 'az'
+      },
+    
+      {
+        'name': 'Spanish Grand Prix',
+        'date': '2019-05-12',
+        'countryCode': 'es'
+      },
+    
+      {
+        'name': 'Monaco Grand Prix',
+        'date': '2019-05-26',
+        'countryCode': 'mc'
+      },
+    
+      {
+        'name': 'Canadian Grand Prix',
+        'date': '2019-06-09',
+        'countryCode': 'ca'
+      },
+    
+      {
+        'name': 'French Grand Prix',
+        'date': '2019-06-23',
+        'countryCode': 'fr'
+      },
+    
+      {
+        'name': 'Austrian Grand Prix',
+        'date': '2019-06-30',
+        'countryCode': 'at'
+      },
+    
+      {
+        'name': 'British Grand Prix',
+        'date': '2019-07-14',
+        'countryCode': 'gb'
+      },
+    
+      {
+        'name': 'German Grand Prix',
+        'date': '2019-07-28',
+        'countryCode': 'de'
+      },
+    
+      {
+        'name': 'Hungarian Grand Prix',
+        'date': '2019-08-04',
+        'countryCode': 'hu'
+      },
+    
+      {
+        'name': 'Belgian Grand Prix',
+        'date': '2019-09-01',
+        'countryCode': 'be'
+      },
+    
+      {
+        'name': 'Italian Grand Prix',
+        'date': '2019-09-08',
+        'countryCode': 'it'
+      },
+    
+      {
+        'name': 'Singapore Grand Prix',
+        'date': '2019-09-22',
+        'countryCode': 'sg'
+      },
+    
+      {
+        'name': 'Russian Grand Prix',
+        'date': '2019-09-29',
+        'countryCode': 'ru'
+      },
+    
+      {
+        'name': 'Japanese Grand Prix',
+        'date': '2019-10-13',
+        'countryCode': 'jp'
+      },
+    
+      {
+        'name': 'Mexican Grand Prix',
+        'date': '2019-10-27',
+        'countryCode': 'mx'
+      },
+    
+      {
+        'name': 'United States Grand Prix',
+        'date': '2019-11-03',
+        'countryCode': 'us'
+      },
+    
+      {
+        'name': 'Brazilian Grand Prix',
+        'date': '2019-11-17',
+        'countryCode': 'br'
+      },
+    
+      {
+        'name': 'Abu Dhabi Grand Prix',
+        'date': '2019-12-01',
+        'countryCode': 'ae'
+      }
+    
+  ];
+  var currentDate = new Date;
+  var currentDate = new Date('2019-10-14');
+  var nextRaceName = '';
+  var nextRaceCode = '';
+  for (i = 0; i < races.length; i++) {
+    nextDate = races[i]['date'];
+    if (new Date(races[i]['date']) >= currentDate) {
+        nextRaceName = races[i]['name'];
+        nextRaceCode = races[i]['countryCode'];
+        break;
+    } else {
+        nextRaceName = races[0]['name'];
+        nextRaceCode = races[0]['countryCode'];
+    }
+  }
+  document.querySelector('#nextracename').innerHTML = nextRaceName;
+  nextRaceCountryImageUrl = '/assets/images/flags/' + nextRaceCode + '.png';
+  document.querySelector('#nextraceimg').setAttribute('src', nextRaceCountryImageUrl);
+</script>
 <!-- end next race -->
 </div>
 </section>

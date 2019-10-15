@@ -1,29 +1,48 @@
 <!-- begin next race -->
-{%- assign current_date = 'now' | date: '%s' -%}
-
-{%- for race in site.data.races -%}
-  {%- assign race_date = race.race-date | date: '%s' -%}
-  {%- if race_date >= current_date -%}
-    {%- assign next_race = race.name -%}
-    {%- assign next_race_country_code = race.country-code -%}
-    {%- break -%}
-  {%- endif -%}
-{%- endfor -%}
-
 <a href="{%- link _pages/calendar.md -%}" class="next-race text-dark w-100" >
 
   <div class="col mb-30px">
       <div class="listfeaturedtag h-100">
           <div class="row h-100">
               <div class="col-3 col-md-2 col-lg-2">
-                <img src="/assets/images/flags/{{ next_race_country_code }}.png" class="card-img-top" />
+                <img class="card-img-top" id="nextraceimg" />
               </div>
-              <div class="my-auto h5 p-2 p-lg-3">
-                {{ next_race }}
+              <div class="my-auto h5 p-2 p-lg-3" id="nextracename">
+
               </div>
           </div>
       </div>
   </div>
 
 </a>
+
+<script>
+  var races = [
+    {% for race in site.data.races %}
+      {
+        'name': '{{ race.name }}',
+        'date': '{{ race.race-date }}',
+        'countryCode': '{{ race.country-code }}'
+      }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ];
+  var currentDate = new Date;
+  var currentDate = new Date('2019-10-14');
+  var nextRaceName = '';
+  var nextRaceCode = '';
+  for (i = 0; i < races.length; i++) {
+    nextDate = races[i]['date'];
+    if (new Date(races[i]['date']) >= currentDate) {
+        nextRaceName = races[i]['name'];
+        nextRaceCode = races[i]['countryCode'];
+        break;
+    } else {
+        nextRaceName = races[0]['name'];
+        nextRaceCode = races[0]['countryCode'];
+    }
+  }
+  document.querySelector('#nextracename').innerHTML = nextRaceName;
+  nextRaceCountryImageUrl = '/assets/images/flags/' + nextRaceCode + '.png';
+  document.querySelector('#nextraceimg').setAttribute('src', nextRaceCountryImageUrl);
+</script>
 <!-- end next race -->

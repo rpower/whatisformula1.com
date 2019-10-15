@@ -18,7 +18,7 @@ var documents = [{
     "id": 4,
     "url": "https://www.whatisformula1.com/",
     "title": "Home",
-    "body": "      When is the next race?:                                                   Mexican Grand Prix                      What is FORMULA 1?:                               FORMULA 1 is a motorsport where 20 drivers (and their teams) compete in 21 races across the world to win the FORMULA 1 World Championship.                       Teams work to produce some of the most powerful, technologically advanced cars. These cars are then raced in a number of Grand Prix around the world with drivers and their teams looking to earn the most points by the end of the season. Read more. . .                    "},{
+    "body": "      When is the next race?:                                                                 What is FORMULA 1?:                               FORMULA 1 is a motorsport where 20 drivers (and their teams) compete in 21 races across the world to win the FORMULA 1 World Championship.                       Teams work to produce some of the most powerful, technologically advanced cars. These cars are then raced in a number of Grand Prix around the world with drivers and their teams looking to earn the most points by the end of the season. Read more. . .                    "},{
     "id": 5,
     "url": "https://www.whatisformula1.com/pitstops/",
     "title": "Pit Stops",
