@@ -4,7 +4,7 @@ title: Rules
 permalink: /rules/
 image: haas-pit-lane-rain
 in-page-image: british-gp-grid
-in-page-image-caption: Cars line up on the grid ahead of the 2019 British Grand Prix.
+in-page-image-caption: Cars line up on the grid ahead of the 2019 British Grand Prix
 image-credit: Andy Hone / LAT Images
 order: 1
 ---

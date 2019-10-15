@@ -16,7 +16,7 @@ layout: default
       {%- else -%}
       <img class="featured-image img-fluid" src="{%- if page.in-page-image contains "://" -%}{{ page.in-page-image }}{%- else -%}{{ site.baseurl }}/assets/images/pages/{{ page.in-page-image }}.jpg{%- endif -%}" alt="{{ page.title }}">
       {%- endif -%}
-      <figcaption class="figure-caption border-bottom pb-2">{{ page.in-page-image-caption }}{%- if page.image-credit -%} (Photo by {{ page.image-credit }}){%- endif -%}</figcaption>
+      <figcaption class="figure-caption border-bottom pb-2">{{ page.in-page-image-caption }}{%- if page.image-credit -%}  &nbsp;(Photo by {{ page.image-credit }}){%- endif -%}</figcaption>
     </figure>
 
     {%- endif -%}
