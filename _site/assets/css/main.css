@@ -218,6 +218,8 @@ pre.lineno { color: #9999; }
 
 @media only screen and (min-width: 64.0625em) { .mainheading-home { height: 30em; } }
 
+@media screen and (min-width: 1500px) { .mainheading-home { height: 40em; } }
+
 /* Ensure text in the center of hero image is responsive */
 @media only screen and (min-width: 20.0625em) { .mainheading-home { padding: 3em 3em 0; } }
 
@@ -251,5 +253,7 @@ a.nav-link:hover, a.next-race:hover { text-decoration: underline; }
 
 /* Emulating stretched-link from Bootstrap 4.3 */
 .stretched-link::after { position: absolute; top: 0; right: 0; bottom: 0; left: 0; z-index: 1; pointer-events: auto; content: ""; background-color: rgba(0, 0, 0, 0); }
+
+@media screen and (min-width: 1500px) { .homesubmenu { font-size: 18px; } }
 
 /*# sourceMappingURL=main.css.map */
