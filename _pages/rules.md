@@ -3,8 +3,10 @@ layout: page
 title: Rules
 permalink: /rules/
 image: haas-pit-lane-rain
+image-alt-text: The black Haas car waits in the pit lane in the rain
 in-page-image: british-gp-grid
 in-page-image-caption: Cars line up on the grid ahead of the 2019 British Grand Prix
+in-page-image-alt-text: 20 Formula 1 cars arranged on the starting grid of the 2019 British Grand Prix
 image-credit: Andy Hone / LAT Images
 order: 1
 ---

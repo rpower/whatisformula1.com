@@ -3,8 +3,10 @@ layout: page
 title: Calendar
 permalink: /calendar/
 image: monaco-hairpin
+image-alt-text: Multiple Formula 1 cars are navigating a tight hairpin at the Monaco Grand Prix
 in-page-image: vettel-leads-canadian-gp
 in-page-image-caption: Ferrari driver Sebastian Vettel leads the pack at the 2019 Canadian Grand Prix
+in-page-image-alt-text: A Ferrari leads a train of 19 other Formula 1 cars around a chicane at the Canadian Grand Prix
 preview-text: The 2019 Formula 1 season is contested over 21 Grand Prix held around the world. These include historic races such as the Monaco Grand Prix and the British Grand Prix but also new races such as...
 image-credit: Dan Istitene / Getty Images
 order: 4

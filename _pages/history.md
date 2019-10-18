@@ -3,8 +3,10 @@ layout: page
 title: History
 permalink: /history/
 image: senna-rain
+image-alt-text: An old McLaren car driven by Ayrton Senna kicks up spray during a wet race
 in-page-image: schumacher-wins-2001-hungarian-gp
 in-page-image-caption: Then Ferrari driver Michael Schumacher wins the 2001 Hungarian Grand Prix
+in-page-image-alt-text: Micheal Schumacher jumps in celebration at the top of the podium
 image-credit: Ferrari Media Center
 order: 5
 ---
