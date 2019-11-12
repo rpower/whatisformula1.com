@@ -27,7 +27,7 @@ defaults:
       path: ""
     values:
       image:
-        path: 'assets/images/ogp-card.png'
+        path: 'assets/images/ogp-card-v2.png'
         height: 1207
         width: 1266
 
