@@ -21,6 +21,13 @@ plugins:
   - jekyll-seo-tag
   - jekyll-archives
 
+# Open Graph Protocol
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: 'assets/images/ogp-card.png'
+
 # Archives
 jekyll-archives:
   enabled:

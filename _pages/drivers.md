@@ -2,7 +2,7 @@
 layout: page
 title: Drivers
 permalink: /drivers/
-image: max-race-win
+image-main: max-race-win
 image-alt-text: A Formula 1 driver, Max Verstappen, raises his hands in celebration
 in-page-image: max-az-gp-grid
 in-page-image-caption: Red Bull driver Max Verstappen ahead of the 2019 Azerbaijan Grand Prix

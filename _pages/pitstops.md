@@ -2,7 +2,7 @@
 layout: page
 title: Pit Stops
 permalink: /pitstops/
-image: mclaren-pit-stop-austria
+image-main: mclaren-pit-stop-austria
 image-alt-text: Close-up of a McLaren Formula 1 car during a pit stop
 in-page-image: red-bull-pitstop-britain
 in-page-image-caption: Red Bull mechanics performing a pit stop on Pierre Gasly's car at the 2019 British Grand Prix

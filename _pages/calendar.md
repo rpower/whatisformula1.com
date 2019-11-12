@@ -2,7 +2,7 @@
 layout: page
 title: Calendar
 permalink: /calendar/
-image: monaco-hairpin
+image-main: monaco-hairpin
 image-alt-text: Multiple Formula 1 cars are navigating a tight hairpin at the Monaco Grand Prix
 in-page-image: vettel-leads-canadian-gp
 in-page-image-caption: Ferrari driver Sebastian Vettel leads the pack at the 2019 Canadian Grand Prix

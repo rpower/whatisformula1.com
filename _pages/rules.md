@@ -2,7 +2,7 @@
 layout: page
 title: Rules
 permalink: /rules/
-image: haas-pit-lane-rain
+image-main: haas-pit-lane-rain
 image-alt-text: The black Haas car waits in the pit lane in the rain
 in-page-image: british-gp-grid
 in-page-image-caption: Cars line up on the grid ahead of the 2019 British Grand Prix

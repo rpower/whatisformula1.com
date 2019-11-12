@@ -2,7 +2,7 @@
 layout: page
 title: Teams
 permalink: /teams/
-image: ferrari-us-gp
+image-main: ferrari-us-gp
 image-alt-text: The red Ferrari car travelling through the turns in a race
 in-page-image: nico-german-gp
 in-page-image-caption: Renault driver Nico Hulkenberg driving in the rain during a wet 2019 German Grand Prix
