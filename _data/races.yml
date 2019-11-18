@@ -4,123 +4,144 @@
   country-code: au
   location: Melbourne, Australia
   race-date: 2019-03-17
+  date-formatted: 17th of March
 - name: Bahrain Grand Prix
   official_name: FORMULA 1 GULF AIR BAHRAIN GRAND PRIX 2019
   country: Bahrain
   country-code: bh
   location: Sakhir, Bahrain
   race-date: 2019-03-31
+  date-formatted: 1st of March
 - name: Chinese Grand Prix
   official_name: FORMULA 1 HEINEKEN CHINESE GRAND PRIX 2019
   country: China
   country-code: cn
   location: Shanghai, China
   race-date: 2019-04-14
+  date-formatted: 14th of April
 - name: Azerbaijan Grand Prix
   official_name: FORMULA 1 SOCAR AZERBAIJAN GRAND PRIX 2019
   country: Azerbaijan
   country-code: az
   location: Baku, Azerbaijan
   race-date: 2019-04-28
+  date-formatted: 28th of April
 - name: Spanish Grand Prix
   official_name: FORMULA 1 EMIRATES GRAN PREMIO DE ESPAÑA 2019
   country: Spain
   country-code: es
   location: Catalonia, Spain
   race-date: 2019-05-12
+  date-formatted: 12th of May
 - name: Monaco Grand Prix
   official_name: FORMULA 1 GRAND PRIX DE MONACO 2019
   country: Monaco
   country-code: mc
   location: Monte Carlo, Monaco
   race-date: 2019-05-26
+  date-formatted: 26th of May
 - name: Canadian Grand Prix
   official_name: FORMULA 1 PIRELLI GRAND PRIX DU CANADA 2019
   country: Canada
   country-code: ca
   location: Montréal, Canada
   race-date: 2019-06-09
+  date-formatted: 9th of June
 - name: French Grand Prix
   official_name: FORMULA 1 PIRELLI GRAND PRIX DE FRANCE 2019
   country: France
   country-code: fr
   location: Le Castellet, France
   race-date: 2019-06-23
+  date-formatted: 23rd of June
 - name: Austrian Grand Prix
   official_name: FORMULA 1 MYWORLD GROSSER PREIS VON ÖSTERREICH 2019
   country: Austria
   country-code: at
   location: Spielberg, Austria
   race-date:  2019-06-30
+  date-formatted: 30th of June
 - name: British Grand Prix
   official_name: FORMULA 1 ROLEX BRITISH GRAND PRIX 2019
   country: United Kingdom
   country-code: gb
   location: Silverstone, United Kingdom
   race-date: 2019-07-14
+  date-formatted: 14th of July
 - name: German Grand Prix
   official_name: FORMULA 1 MERCEDES-BENZ GROSSER PREIS VON DEUTSCHLAND 2019
   country: Germany
   country-code: de
   location: Hockenheim, Germany
   race-date: 2019-07-28
+  date-formatted: 28th of July
 - name: Hungarian Grand Prix
   official_name: FORMULA 1 ROLEX MAGYAR NAGYDÍJ 2019
   country: Hungary
   country-code: hu
   location: Mogyoród, Hungary
   race-date: 2019-08-04
+  date-formatted: 4th of August
 - name: Belgian Grand Prix
   official_name: FORMULA 1 JOHNNIE WALKER BELGIAN GRAND PRIX 2019
   country: Belgium
   country-code: be
   location: Spa, Belgium
   race-date: 2019-09-01
+  date-formatted: 1st of September
 - name: Italian Grand Prix
   official_name: FORMULA 1 GRAN PREMIO HEINEKEN D'ITALIA 2019
   country: Italy
   country-code: it
   location: Monza, Italy
   race-date: 2019-09-08
+  date-formatted: 8th of September
 - name: Singapore Grand Prix
   official_name: FORMULA 1 SINGAPORE AIRLINES SINGAPORE GRAND PRIX 2019
   country: Singapore
   country-code: sg
   location: Marina Bay, Singapore
   race-date: 2019-09-22
+  date-formatted: 22nd of September
 - name: Russian Grand Prix
   official_name: FORMULA 1 VTB RUSSIAN GRAND PRIX 2019
   country: Russia
   country-code: ru
   location: Sochi, Russia
   race-date: 2019-09-29
+  date-formatted: 29th of September
 - name: Japanese Grand Prix
   official_name: FORMULA 1 JAPANESE GRAND PRIX 2019
   country: Japan
   country-code: jp
   location: Suzuka, Japan
   race-date: 2019-10-13
+  date-formatted: 13th of October
 - name: Mexican Grand Prix
   official_name: FORMULA 1 GRAN PREMIO DE MÉXICO 2019
   country: Mexico
   country-code: mx
   location: Mexico City, Mexico
   race-date: 2019-10-27
+  date-formatted: 27th of October
 - name: United States Grand Prix
   official_name: FORMULA 1 UNITED STATES GRAND PRIX 2019
   country: United States
   country-code: us
   location: Austin, Texas
   race-date: 2019-11-03
+  date-formatted: 3rd of November
 - name: Brazilian Grand Prix
   official_name: FORMULA 1 HEINEKEN GRANDE PRÊMIO DO BRASIL 2019
   country: Brazil
   country-code: br
   location: São Paulo, Brazil
   race-date: 2019-11-17
+  date-formatted: 17th of November
 - name: Abu Dhabi Grand Prix
   official_name: FORMULA 1 ETIHAD AIRWAYS ABU DHABI GRAND PRIX 2019
   country: United Arab Emirates
   country-code: ae
   location: Abu Dhabi, UAE
   race-date: 2019-12-01
+  date-formatted: 1st of December

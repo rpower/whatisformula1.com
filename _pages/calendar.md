@@ -12,33 +12,49 @@ image-credit: Dan Istitene / Getty Images
 order: 4
 ---
 
-{%- assign current_date = 'now' | date: '%s' -%}
-{%- assign current_year = 'now' | date: '%Y ' -%}
-
-{%- for race in site.data.races -%}
-  {%- assign race_date = race.race-date | date: '%s' -%}
-  {%- if race_date >= current_date -%}
-    {%- assign next_race = current_year | append: race.name -%}
-    {%- assign next_race_location = race.location -%}
-    {%- assign next_race_day = race.race-date | date: '%-d' -%}
-    {%- assign next_race_month = race.race-date | date: '%B' -%}
-    {%- assign next_race_country_code = race.country-code -%}
-    {%- break -%}
-  {%- endif -%}
-{%- endfor -%}
-
 The 2019 Formula 1 season is contested over 21 Grand Prix held around the world. These include historic races such as the <img src="/assets/images/flag_placeholder.png" class="flag flag-mc ml-1 mb-2" /> <span class="pl-1 font-weight-bold">Monaco Grand Prix</span> and the <img src="/assets/images/flag_placeholder.png" class="flag flag-gb ml-1 mb-2" /> <span class="pl-1 font-weight-bold">British Grand Prix</span> but also new races such as the return of the <img src="/assets/images/flag_placeholder.png" class="flag flag-fr ml-1 mb-2" /> <span class="pl-1 font-weight-bold">French Grand Prix</span> which was reintroduced in 2018.
 
 In the 2020 season, the number of races will increase with the introduction of the <img src="/assets/images/flag_placeholder.png" class="flag flag-nl ml-1 mb-2" /> <span class="pl-1 font-weight-bold">Dutch Grand Prix</span> and the <img src="/assets/images/flag_placeholder.png" class="flag flag-vn ml-1 mb-2" /> <span class="pl-1 font-weight-bold">Vietnam Grand Prix</span>.
 
 <div class="alert alert-primary" role="alert">
-The next race is the <img src="/assets/images/flag_placeholder.png" class="flag flag-{{ next_race_country_code }} ml-1 mb-2" /> <span class="pl-1 font-weight-bold">{{ next_race }}</span> held in <span class="font-weight-bold">{{ next_race_location }}</span> on the <span class="font-weight-bold">{%- case next_race_day -%}
-  {%- when '1' or '21' or '31' -%}{{ next_race_day }}st
-  {%- when '2' or '22' -%}{{ next_race_day }}nd
-  {%- when '3' or '23' -%}{{ next_race_day }}rd
-  {%- else -%}{{ next_race_day }}th
-{%- endcase -%}&nbsp;of {{ next_race_month }}</span>.
+The next race is the <img src="/assets/images/flag_placeholder.png" class="flag ml-1 mb-2" id="nextraceimg" /> <span class="pl-1 font-weight-bold" id="nextracename">{{ next_race }}</span> held in <span class="font-weight-bold" id="nextracelocation"></span> on the <span class="font-weight-bold" id="nextracedate"></span>.
 </div>
+
+<script>
+  var races = [
+    {% for race in site.data.races %}
+      {
+        'name': '{{ race.name }}',
+        'date': '{{ race.race-date }}',
+        'countryCode': '{{ race.country-code }}',
+        'location': '{{ race.location }}',
+        'dateFormatted': '{{ race.date-formatted }}'
+      }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ];
+  var currentDate = new Date;
+  var nextRaceName = '';
+  var nextRaceCode = '';
+  for (i = 0; i < races.length; i++) {
+    nextDate = races[i]['date'];
+    if (new Date(races[i]['date']) >= currentDate) {
+        nextRaceName = races[i]['name'];
+        nextRaceCode = races[i]['countryCode'];
+        nextRaceLocation = races[i]['location'];
+        nextRaceDate = races[i]['dateFormatted'];
+        break;
+    } else {
+        nextRaceName = races[0]['name'];
+        nextRaceCode = races[0]['countryCode'];
+        nextRaceLocation = races[0]['location'];
+        nextRaceDate = races[0]['dateFormatted'];
+    }
+  }
+  document.querySelector('#nextracename').innerHTML = nextRaceName;
+  document.querySelector('#nextraceimg').className += ' flag-' + nextRaceCode;
+  document.querySelector('#nextracelocation').innerHTML = nextRaceLocation;
+  document.querySelector('#nextracedate').innerHTML = nextRaceDate;
+</script>
 
 Below is the full calendar of races for the 2019 Formula 1 season:
 

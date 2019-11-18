@@ -18,7 +18,7 @@
 <meta property="og:image:height" content="1207" />
 <meta property="og:image:width" content="1266" />
 <script type="application/ld+json">
-{"@type":"WebPage","url":"https://www.whatisformula1.com/calendar/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://www.whatisformula1.com/assets/images/logo.png"}},"description":"Learn about the fastest, most technologically advanced, motorsport in the world","image":{"height":1207,"width":1266,"url":"https://www.whatisformula1.com/assets/images/ogp-card-v2.png","@type":"imageObject"},"headline":"Calendar","@context":"https://schema.org"}</script>
+{"url":"https://www.whatisformula1.com/calendar/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://www.whatisformula1.com/assets/images/logo.png"}},"description":"Learn about the fastest, most technologically advanced, motorsport in the world","image":{"height":1207,"width":1266,"url":"https://www.whatisformula1.com/assets/images/ogp-card-v2.png","@type":"imageObject"},"headline":"Calendar","@type":"WebPage","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon">
 <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
@@ -95,8 +95,204 @@
 <p>In the 2020 season, the number of races will increase with the introduction of the <img src="/assets/images/flag_placeholder.png" class="flag flag-nl ml-1 mb-2" /> <span class="pl-1 font-weight-bold">Dutch Grand Prix</span> and the <img src="/assets/images/flag_placeholder.png" class="flag flag-vn ml-1 mb-2" /> <span class="pl-1 font-weight-bold">Vietnam Grand Prix</span>.</p>
 
 <div class="alert alert-primary" role="alert">
-The next race is the <img src="/assets/images/flag_placeholder.png" class="flag flag-br ml-1 mb-2" /> <span class="pl-1 font-weight-bold">2019 Brazilian Grand Prix</span> held in <span class="font-weight-bold">São Paulo, Brazil</span> on the <span class="font-weight-bold">17th&nbsp;of November</span>.
+The next race is the <img src="/assets/images/flag_placeholder.png" class="flag ml-1 mb-2" id="nextraceimg" /> <span class="pl-1 font-weight-bold" id="nextracename"></span> held in <span class="font-weight-bold" id="nextracelocation"></span> on the <span class="font-weight-bold" id="nextracedate"></span>.
 </div>
+
+<script>
+  var races = [
+    
+      {
+        'name': 'Australian Grand Prix',
+        'date': '2019-03-17',
+        'countryCode': 'au',
+        'location': 'Melbourne, Australia',
+        'dateFormatted': '17th of March'
+      },
+    
+      {
+        'name': 'Bahrain Grand Prix',
+        'date': '2019-03-31',
+        'countryCode': 'bh',
+        'location': 'Sakhir, Bahrain',
+        'dateFormatted': '1st of March'
+      },
+    
+      {
+        'name': 'Chinese Grand Prix',
+        'date': '2019-04-14',
+        'countryCode': 'cn',
+        'location': 'Shanghai, China',
+        'dateFormatted': '14th of April'
+      },
+    
+      {
+        'name': 'Azerbaijan Grand Prix',
+        'date': '2019-04-28',
+        'countryCode': 'az',
+        'location': 'Baku, Azerbaijan',
+        'dateFormatted': '28th of April'
+      },
+    
+      {
+        'name': 'Spanish Grand Prix',
+        'date': '2019-05-12',
+        'countryCode': 'es',
+        'location': 'Catalonia, Spain',
+        'dateFormatted': '12th of May'
+      },
+    
+      {
+        'name': 'Monaco Grand Prix',
+        'date': '2019-05-26',
+        'countryCode': 'mc',
+        'location': 'Monte Carlo, Monaco',
+        'dateFormatted': '26th of May'
+      },
+    
+      {
+        'name': 'Canadian Grand Prix',
+        'date': '2019-06-09',
+        'countryCode': 'ca',
+        'location': 'Montréal, Canada',
+        'dateFormatted': '9th of June'
+      },
+    
+      {
+        'name': 'French Grand Prix',
+        'date': '2019-06-23',
+        'countryCode': 'fr',
+        'location': 'Le Castellet, France',
+        'dateFormatted': '23rd of June'
+      },
+    
+      {
+        'name': 'Austrian Grand Prix',
+        'date': '2019-06-30',
+        'countryCode': 'at',
+        'location': 'Spielberg, Austria',
+        'dateFormatted': '30th of June'
+      },
+    
+      {
+        'name': 'British Grand Prix',
+        'date': '2019-07-14',
+        'countryCode': 'gb',
+        'location': 'Silverstone, United Kingdom',
+        'dateFormatted': '14th of July'
+      },
+    
+      {
+        'name': 'German Grand Prix',
+        'date': '2019-07-28',
+        'countryCode': 'de',
+        'location': 'Hockenheim, Germany',
+        'dateFormatted': '28th of July'
+      },
+    
+      {
+        'name': 'Hungarian Grand Prix',
+        'date': '2019-08-04',
+        'countryCode': 'hu',
+        'location': 'Mogyoród, Hungary',
+        'dateFormatted': '4th of August'
+      },
+    
+      {
+        'name': 'Belgian Grand Prix',
+        'date': '2019-09-01',
+        'countryCode': 'be',
+        'location': 'Spa, Belgium',
+        'dateFormatted': '1st of September'
+      },
+    
+      {
+        'name': 'Italian Grand Prix',
+        'date': '2019-09-08',
+        'countryCode': 'it',
+        'location': 'Monza, Italy',
+        'dateFormatted': '8th of September'
+      },
+    
+      {
+        'name': 'Singapore Grand Prix',
+        'date': '2019-09-22',
+        'countryCode': 'sg',
+        'location': 'Marina Bay, Singapore',
+        'dateFormatted': '22nd of September'
+      },
+    
+      {
+        'name': 'Russian Grand Prix',
+        'date': '2019-09-29',
+        'countryCode': 'ru',
+        'location': 'Sochi, Russia',
+        'dateFormatted': '29th of September'
+      },
+    
+      {
+        'name': 'Japanese Grand Prix',
+        'date': '2019-10-13',
+        'countryCode': 'jp',
+        'location': 'Suzuka, Japan',
+        'dateFormatted': '13th of October'
+      },
+    
+      {
+        'name': 'Mexican Grand Prix',
+        'date': '2019-10-27',
+        'countryCode': 'mx',
+        'location': 'Mexico City, Mexico',
+        'dateFormatted': '27th of October'
+      },
+    
+      {
+        'name': 'United States Grand Prix',
+        'date': '2019-11-03',
+        'countryCode': 'us',
+        'location': 'Austin, Texas',
+        'dateFormatted': '3rd of November'
+      },
+    
+      {
+        'name': 'Brazilian Grand Prix',
+        'date': '2019-11-17',
+        'countryCode': 'br',
+        'location': 'São Paulo, Brazil',
+        'dateFormatted': '17th of November'
+      },
+    
+      {
+        'name': 'Abu Dhabi Grand Prix',
+        'date': '2019-12-01',
+        'countryCode': 'ae',
+        'location': 'Abu Dhabi, UAE',
+        'dateFormatted': '1st of December'
+      }
+    
+  ];
+  var currentDate = new Date;
+  var nextRaceName = '';
+  var nextRaceCode = '';
+  for (i = 0; i < races.length; i++) {
+    nextDate = races[i]['date'];
+    if (new Date(races[i]['date']) >= currentDate) {
+        nextRaceName = races[i]['name'];
+        nextRaceCode = races[i]['countryCode'];
+        nextRaceLocation = races[i]['location'];
+        nextRaceDate = races[i]['dateFormatted'];
+        break;
+    } else {
+        nextRaceName = races[0]['name'];
+        nextRaceCode = races[0]['countryCode'];
+        nextRaceLocation = races[0]['location'];
+        nextRaceDate = races[0]['dateFormatted'];
+    }
+  }
+  document.querySelector('#nextracename').innerHTML = nextRaceName;
+  document.querySelector('#nextraceimg').className += ' flag-' + nextRaceCode;
+  document.querySelector('#nextracelocation').innerHTML = nextRaceLocation;
+  document.querySelector('#nextracedate').innerHTML = nextRaceDate;
+</script>
 
 <p>Below is the full calendar of races for the 2019 Formula 1 season:</p>
 
