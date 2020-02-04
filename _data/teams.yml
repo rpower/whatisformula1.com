@@ -2,7 +2,7 @@
   full_name: Mercedes-AMG Petronas Motorsport
   country: Germany
   country-code: de
-  description: Mercedes are the reigning World Constructors' Champions, meaning they are the team to beat in 2019. Having built a car which is fast in almost all areas of the track, other teams will be looking to knock them off their perch.
+  description: Mercedes are the reigning World Constructors' Champions, meaning they are the team to beat in 2020. Having built a car which is fast in almost all areas of the track, other teams will be looking to knock them off their perch.
   engine: Mercedes
 - name: Ferrari
   full_name: Scuderia Ferrari
@@ -20,14 +20,14 @@
   full_name: Renault
   country: France
   country-code: fr
-  description: Renault are looking to improve their engine to build upon what was a strong season in 2018. Bringing on experienced race-winner Daniel Ricciardo is a statement of intent for the French constructor.
+  description: Renault took a step-back in results last year, and with one of the best drivers on the grid in Daniel Ricciardo on their team, they're looking to improve quickly.
   engine: Renault
 - name: McLaren
   full_name: McLaren
   country: United Kingdom
   country-code: gb
   engine: Renault
-  description: The British constructor, who rely on Renault for their engines, are in a rebuilding phase following a poor 2018 season. For the first time this season, they replaced both drivers at the same time and have been starting to look like the over-performing team, best of the rest outside of the top 3 teams.
+  description: The British constructor, who rely on Renault for their engines, are in a rebuilding phase following a poor 2018 season. In the previous season they out-matches expectations considerably.
 - name: Haas
   full_name: Haas
   country: United States
@@ -46,15 +46,15 @@
   country-code: gb
   engine: Mercedes
   description: Despite being the second-most successful F1 team after Ferrari (with 9 titles to their name), they have been slipping backwards and are bringing up the rear of the pack nowadays.
-- name: Toro Rosso
-  full_name: Red Bull Toro Rosso
+- name: AlphaTauri
+  full_name: AlphaTauri
   country: Italy
   country-code: it
   engine: Honda
-  description: Toro Rosso is the sister-team of Red Bull and is tradionally used to develop drivers before promoting them into the main team.
+  description: AlphaTauri (formerly Toro Rosso) is the sister-team of Red Bull and is tradionally used to develop drivers before promoting them into the main team.
 - name: Alfa Romeo
   full_name: Alfa Romeo Racing
   country: Switzerland
   country-code: ch
   engine: Ferrari
-  description: Formerly Sauber, the Alfa Romeo team use their close ties with Ferrari to help develop their drivers. This year they'll brought on Kimi Räikkönen who was previously at Ferrari.
+  description: Formerly Sauber, the Alfa Romeo team use their close ties with Ferrari to help develop their drivers. Kimi Räikkönen, who was previously at Ferrari, is in his second season with the team.

@@ -3,13 +3,13 @@
   country: United Kingdom
   country-code: gb
   code: ham
-  description: The defending World Drivers' Champion is looking to win his 6th championship this year.
+  description: The defending World Drivers' Champion can equal the record for Formula 1 World Championships this year.
 - name: Valtteri Bottas
   team: Mercedes
   country: Finland
   country-code: fi
   code: bot
-  description: Valterri is in his third year with Mercedes and is increasingly under pressure to perform as well as his teammate.
+  description: Valterri is in his fourth year with Mercedes and is increasingly under pressure to perform as well as his teammate.
 - name: Sebastian Vettel
   team: Ferrari
   country: Germany
@@ -19,32 +19,32 @@
   team: Ferrari
   country: Monaco
   country-code: mc
-  description: In his second year as a full time F1 driver, Leclerc is aiming to impress in his new team, the historic Ferrari.
+  description: In his second year with the historic Ferrari, Leclerc is aiming to outperform his experienced teammate.
 - name: Max Verstappen
   team: Red Bull
   country: Netherlands
   country-code: nl
-  description: In 2016, Max became the youngest ever race-winner. Now in his fifth season in Formula 1, the Dutchman continues to set new records.
+  description: In 2016, Max became the youngest ever race-winner. Now in his sixth season in Formula 1, the Dutchman continues to set new records.
 - name: Alexander Albon
   team: Red Bull
   country: Thailand
   country-code: th
-  description: In only his first year driving a Formula 1 car, and then having been promoted mid-season from the sister team, Toro Rosso, Alex is only the second Thai driver to compete in F1.
+  description: In his first full season racing with Red Bull, Alex is only the second Thai driver to compete in F1.
 - name: Daniel Ricciardo
   team: Renault
   country: Australia
   country-code: au
-  description: The charismatic Ricciardo moved from the Red Bull team to Renault at the end of the previous season, but isn't having much success on track.
-- name: Nico Hulkenberg
+  description: The charismatic Ricciardo moved from the Red Bull team to Renault a year ago, but isn't having much success on track.
+- name: Esteban Ocon
   team: Renault
-  country: Germany
-  country-code: de
-  description: Nico has the record for most Formula 1 starts without a podium finish, in his tenth season he aims to quash that record.
+  country: France
+  country-code: fr
+  description: After a year out of the sport, Esteban returns to F1 at Renault with a point to prove.
 - name: Kimi Räikkönen
   team: Alfa Romeo
   country: Finland
   country-code: fi
-  description: At 39 years old, Kimi is the veteran among the drivers and moved from Ferrari to Alfa Romeo at the end of last season.
+  description: At 40 years old, Kimi is the veteran among the drivers with by far the most experience on track.
 - name: Antonio Giovinazzi
   team: Alfa Romeo
   country: Italy
@@ -64,12 +64,12 @@
   team: McLaren
   country: United Kingdom
   country-code: gb
-  description: The 19 year old rookie Lando was promoted into McLaren this year and has impressed with a string of impressive results.
+  description: The 20 year old Lando impressed in his first year at McLaren and is looking to build on that this season.
 - name: Carlos Sainz
   team: McLaren
   country: Spain
   country-code: es
-  description: The Spaniard Sainz takes over Fernando Alonso's seat which he vacated at the end of last season. Carlos hopes to continue to over-achieve in whichever car he's in.
+  description: Having achieved a podium in the previous season, Sainz will be capitalising on McLaren's improved performance last year.
 - name: Sergio Pérez
   team: Racing Point
   country: Mexico
@@ -79,14 +79,14 @@
   team: Racing Point
   country: Canada
   country-code: ca
-  description: Stroll's father recently saved Racing Point from administration and has been given a seat at the team this year having raced for Williams in the previous season.
+  description: Stroll's father recently saved Racing Point from administration and is in his second year at Racing Point.
 - name: Pierre Gasly
-  team: Toro Rosso
+  team: AlphaTauri
   country: France
   country-code: fr
-  description: Poor performances on track gave bosses at Red Bull cause to demote Gasly back to the team he raced for last season.
+  description: Poor performances on track gave bosses at Red Bull cause to demote Gasly back to the team he raced for in the previous season.
 - name: Daniil Kvyat
-  team: Toro Rosso
+  team: AlphaTauri
   country: Russia
   country-code: ru
   description: Having previously raced for Red Bull, Kyvat was invited back to Formula 1 to compete after a year out of the sport.
@@ -94,9 +94,9 @@
   team: Williams
   country: United Kingdom
   country-code: gb
-  description: The rookie George won Formula 2 championship (a feeder series below Formula 1) last season and now competes in F1 as part of the Williams team. However the Williams car has been consistently at the back of the pack.
-- name: Robert Kubica
+  description: Russell impressed many with his performances under difficult conditions last year. The Mercedes-backed driver aims to show off his talent this season.
+- name: Nicolas Latifi
   team: Williams
-  country: Poland
-  country-code: pl
-  description: After a rallying accident in 2011 which his right forearm was partially severed, Robert Kubica returns as a Formula 1 driver for Williams.
+  country: Canada
+  country-code: ca
+  description: After coming 2nd in Formula 2 last season, the canadian takes the reins at Williams in his rookie year.

@@ -5,7 +5,7 @@ permalink: /teams/
 image-main: ferrari-us-gp
 image-alt-text: The red Ferrari car travelling through the turns in a race
 in-page-image: nico-german-gp
-in-page-image-caption: Renault driver Nico Hulkenberg driving in the rain during a wet 2019 German Grand Prix
+in-page-image-caption: Former Renault driver Nico Hulkenberg driving in the rain during a wet 2019 German Grand Prix
 in-page-image-alt-text: A yellow Renault car in the foreground leads multiple other Formula 1 cars in a rainy race
 preview-text: Find out more about the 10 teams competing for the World Constructors' Championship. Mercedes are the reigning champions, and they face fierce competition from the likes of Ferrari and Red Bull.
 image-credit:  XPB / James Moy Photography
