@@ -1,96 +1,47 @@
-- name: Australian Grand Prix
-  official_name: FORMULA 1 ROLEX AUSTRALIAN GRAND PRIX 2020
-  country: Australia
-  country-code: au
-  location: Melbourne, Australia
-  race-date: 2020-03-15
-  date-formatted: 15th of March
-- name: Bahrain Grand Prix
-  official_name: FORMULA 1 GULF AIR BAHRAIN GRAND PRIX 2020
-  country: Bahrain
-  country-code: bh
-  location: Sakhir, Bahrain
-  race-date: 2020-03-22
-  date-formatted: 22nd of March
-- name: Vietnamese Grand Prix
-  official_name: FORMULA 1 VINFAST VIETNAM GRAND PRIX 2020
-  country: Vietnam
-  country-code: vn
-  location: Hanoi, Vietnam
-  race-date: 2020-04-05
-  date-formatted: 5th of April
-- name: Chinese Grand Prix
-  official_name: FORMULA 1 HEINEKEN CHINESE GRAND PRIX 2020
-  country: China
-  country-code: cn
-  location: Shanghai, China
-  race-date: 2020-04-19
-  date-formatted: 19th of April
-- name: Dutch Grand Prix
-  official_name: FORMULA 1 HEINEKEN DUTCH GRAND PRIX 2020
-  country: Netherlands
-  country-code: nl
-  location: Zandvoort, Netherlands
-  race-date: 2020-05-03
-  date-formatted: 3rd of May
-- name: Spanish Grand Prix
-  official_name: FORMULA 1 EMIRATES GRAN PREMIO DE ESPAÑA 2020
-  country: Spain
-  country-code: es
-  location: Catalonia, Spain
-  race-date: 2020-05-10
-  date-formatted: 10th of May
-- name: Monaco Grand Prix
-  official_name: FORMULA 1 GRAND PRIX DE MONACO 2020
-  country: Monaco
-  country-code: mc
-  location: Monte Carlo, Monaco
-  race-date: 2020-05-24
-  date-formatted: 24th of May
-- name: Azerbaijan Grand Prix
-  official_name: FORMULA 1 SOCAR AZERBAIJAN GRAND PRIX 2020
-  country: Azerbaijan
-  country-code: az
-  location: Baku, Azerbaijan
-  race-date: 2020-06-07
-  date-formatted: 7th of June
-- name: Canadian Grand Prix
-  official_name: FORMULA 1 PIRELLI GRAND PRIX DU CANADA 2020
-  country: Canada
-  country-code: ca
-  location: Montréal, Canada
-  race-date: 2020-06-14
-  date-formatted: 14th of June
-- name: French Grand Prix
-  official_name: FORMULA 1 PIRELLI GRAND PRIX DE FRANCE 2020
-  country: France
-  country-code: fr
-  location: Le Castellet, France
-  race-date: 2020-06-28
-  date-formatted: 28rd of June
 - name: Austrian Grand Prix
-  official_name: FORMULA 1 MYWORLD GROSSER PREIS VON ÖSTERREICH 2020
+  official_name: Formula 1 Rolex Grosser Preis von Osterreich
   country: Austria
   country-code: at
   location: Spielberg, Austria
   race-date:  2020-07-05
   date-formatted: 5th of July
-- name: British Grand Prix
-  official_name: FORMULA 1 ROLEX BRITISH GRAND PRIX 2020
-  country: United Kingdom
-  country-code: gb
-  location: Silverstone, United Kingdom
-  race-date: 2020-07-19
-  date-formatted: 19th of July
+- name: Styrian Grand Prix
+  official_name: Formula 1 Pirelli Grosser Preis der Steiermark
+  country: Austria
+  country-code: at
+  location: Spielberg, Austria
+  race-date:  2020-07-12
+  date-formatted: 12th of July
 - name: Hungarian Grand Prix
-  official_name: FORMULA 1 ROLEX MAGYAR NAGYDÍJ 2020
+  official_name: Formula 1 Aramco Magyar Nagydij
   country: Hungary
   country-code: hu
   location: Mogyoród, Hungary
+  race-date: 2020-07-19
+  date-formatted: 19th of July
+- name: British Grand Prix
+  official_name: Formula 1 Pirelli British Grand Prix
+  country: United Kingdom
+  country-code: gb
+  location: Silverstone, United Kingdom
   race-date: 2020-08-02
   date-formatted: 2nd of August
+- name: 70th Anniversary Grand Prix
+  official_name: Emirates Formula 1 70th Anniversary Grand Prix
+  country: United Kingdom
+  country-code: gb
+  location: Silverstone, United Kingdom
+  race-date: 2020-08-09
+  date-formatted: 9th of August
+- name: Spanish Grand Prix
+  official_name: Formula 1 Aramco Gran Premio de Espana
+  country: Spain
+  country-code: es
+  location: Catalonia, Spain
+  race-date: 2020-08-16
+  date-formatted: 16th of August
 - name: Belgian Grand Prix
-  official_name: FORMULA 1 JOHNNIE WALKER BELGIAN GRAND PRIX 2020
+  official_name: Formula 1 Rolex Belgian Grand Prix
   country: Belgium
   country-code: be
   location: Spa, Belgium
@@ -103,13 +54,13 @@
   location: Monza, Italy
   race-date: 2020-09-06
   date-formatted: 6th of September
-- name: Singapore Grand Prix
-  official_name: FORMULA 1 SINGAPORE AIRLINES SINGAPORE GRAND PRIX 2020
-  country: Singapore
-  country-code: sg
-  location: Marina Bay, Singapore
-  race-date: 2020-09-20
-  date-formatted: 20th of September
+- name: Tuscan Grand Prix
+  official_name: FORMULA 1 GRAN PREMIO DELLA TOSCANA FERRARI 1000
+  country: Italy
+  country-code: it
+  location: Tuscany, Italy
+  race-date: 2020-09-13
+  date-formatted: 13th of September
 - name: Russian Grand Prix
   official_name: FORMULA 1 VTB RUSSIAN GRAND PRIX 2020
   country: Russia
@@ -117,38 +68,3 @@
   location: Sochi, Russia
   race-date: 2020-09-27
   date-formatted: 27th of September
-- name: Japanese Grand Prix
-  official_name: FORMULA 1 JAPANESE GRAND PRIX 2020
-  country: Japan
-  country-code: jp
-  location: Suzuka, Japan
-  race-date: 2020-10-11
-  date-formatted: 11th of October
-- name: United States Grand Prix
-  official_name: FORMULA 1 UNITED STATES GRAND PRIX 2020
-  country: United States
-  country-code: us
-  location: Austin, Texas
-  race-date: 2020-11-25
-  date-formatted: 25th of November
-- name: Mexican Grand Prix
-  official_name: FORMULA 1 GRAN PREMIO DE MÉXICO 2020
-  country: Mexico
-  country-code: mx
-  location: Mexico City, Mexico
-  race-date: 2020-11-01
-  date-formatted: 1st of November
-- name: Brazilian Grand Prix
-  official_name: FORMULA 1 HEINEKEN GRANDE PRÊMIO DO BRASIL 2020
-  country: Brazil
-  country-code: br
-  location: São Paulo, Brazil
-  race-date: 2020-11-15
-  date-formatted: 15th of November
-- name: Abu Dhabi Grand Prix
-  official_name: FORMULA 1 ETIHAD AIRWAYS ABU DHABI GRAND PRIX 2020
-  country: United Arab Emirates
-  country-code: ae
-  location: Abu Dhabi, UAE
-  race-date: 2020-11-29
-  date-formatted: 29th of November

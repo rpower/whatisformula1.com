@@ -12,9 +12,9 @@ image-credit: Dan Istitene / Getty Images
 order: 4
 ---
 
-The 2020 Formula 1 season is contested over 22 Grand Prix held around the world. These include historic races such as the <img src="/assets/images/flag_placeholder.png" class="flag flag-mc ml-1 mb-2" /> <span class="pl-1 font-weight-bold">Monaco Grand Prix</span> and the <img src="/assets/images/flag_placeholder.png" class="flag flag-gb ml-1 mb-2" /> <span class="pl-1 font-weight-bold">British Grand Prix</span> but also new races such as the return of the <img src="/assets/images/flag_placeholder.png" class="flag flag-nl ml-1 mb-2" /> <span class="pl-1 font-weight-bold">Dutch Grand Prix</span> which was reintroduced this season.
+The 2020 Formula 1 season has been disrupted by the global pandemic. The races included in this year's competition are still up in the air, but the calendar so far is below.
 
-The 2020 season also introduces a new race for the first time, the <img src="/assets/images/flag_placeholder.png" class="flag flag-vn ml-1 mb-2" /> <span class="pl-1 font-weight-bold">Vietnam Grand Prix</span> in April.
+The disrupted 2020 season will not include the new <img src="/assets/images/flag_placeholder.png" class="flag flag-vn ml-1 mb-2" /> <span class="pl-1 font-weight-bold">Vietnam Grand Prix</span> or the returning <img src="/assets/images/flag_placeholder.png" class="flag flag-nl ml-1 mb-2" /> <span class="pl-1 font-weight-bold">Dutch Grand Prix</span>.
 
 <div class="alert alert-primary" role="alert">
 The next race is the <img src="/assets/images/flag_placeholder.png" class="flag ml-1 mb-2" id="nextraceimg" /> <span class="pl-1 font-weight-bold" id="nextracename">{{ next_race }}</span> held in <span class="font-weight-bold" id="nextracelocation"></span> on the <span class="font-weight-bold" id="nextracedate"></span>.
@@ -56,7 +56,7 @@ The next race is the <img src="/assets/images/flag_placeholder.png" class="flag 
   document.querySelector('#nextracedate').innerHTML = nextRaceDate;
 </script>
 
-Below is the full calendar of races for the 2020 Formula 1 season:
+Below is the calendar of races that have been confirmed so far for the 2020 Formula 1 season:
 
 <div class="container">
   <div class="row pb-1 justify-content-center">

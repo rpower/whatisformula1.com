@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://www.whatisformula1.com/calendar/</loc>
+<loc>http://localhost:4000/calendar/</loc>
 </url>
 <url>
-<loc>https://www.whatisformula1.com/contact/</loc>
+<loc>http://localhost:4000/contact/</loc>
 </url>
 <url>
-<loc>https://www.whatisformula1.com/drivers/</loc>
+<loc>http://localhost:4000/drivers/</loc>
 </url>
 <url>
-<loc>https://www.whatisformula1.com/history/</loc>
+<loc>http://localhost:4000/history/</loc>
 </url>
 <url>
-<loc>https://www.whatisformula1.com/</loc>
+<loc>http://localhost:4000/</loc>
 </url>
 <url>
-<loc>https://www.whatisformula1.com/pitstops/</loc>
+<loc>http://localhost:4000/pitstops/</loc>
 </url>
 <url>
-<loc>https://www.whatisformula1.com/rules/</loc>
+<loc>http://localhost:4000/rules/</loc>
 </url>
 <url>
-<loc>https://www.whatisformula1.com/teams/</loc>
+<loc>http://localhost:4000/teams/</loc>
 </url>
 </urlset>
