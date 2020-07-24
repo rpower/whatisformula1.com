@@ -68,3 +68,24 @@
   location: Sochi, Russia
   race-date: 2020-09-27
   date-formatted: 27th of September
+- name: German Grand Prix
+  official_name: FORMULA 1 ARAMCO GROSSER PREIS DER EIFEL
+  country: Germany
+  country-code: de
+  location: Nürburg, Germany
+  race-date: 2020-10-11
+  date-formatted: 11th of October
+- name: Portuguese Grand Prix
+  official_name: FORMULA 1 HEINEKEN PORTUGUESE GRAND PRIX
+  country: Portugal
+  country-code: pt
+  location: Portimão, Portugal
+  race-date: 2020-10-25
+  date-formatted: 25th of October
+- name: San Marino Grand Prix
+  official_name: FORMULA 1 HEINEKEN PORTUGUESE GRAND PRIX
+  country: Italy
+  country-code: it
+  location: Imola, Italy
+  race-date: 2020-11-01
+  date-formatted: 1st of November
