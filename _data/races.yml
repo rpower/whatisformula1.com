@@ -89,3 +89,31 @@
   location: Imola, Italy
   race-date: 2020-11-01
   date-formatted: 1st of November
+- name: Turkish Grand Prix
+  official_name: FORMULA 1 DHL TURKISH GRAND PRIX
+  country: Turkey
+  country-code: tr
+  location: Istanbul, Turkey
+  race-date: 2020-11-15
+  date-formatted: 15th of November
+- name: Bahrain Grand Prix 1
+  official_name: FORMULA 1 GULF AIR BAHRAIN GRAND PRIX
+  country: Bahrain
+  country-code: bh
+  location: Sakhir, Bahrain
+  race-date: 2020-11-29
+  date-formatted: 29th of November
+- name: Bahrain Grand Prix 2
+  official_name: FORMULA 1 ROLEX SAKHIR GRAND PRIX
+  country: Bahrain
+  country-code: bh
+  location: Sakhir, Bahrain
+  race-date: 2020-11-06
+  date-formatted: 6th of December
+- name: Abu Dhabi Grand Prix
+  official_name: FORMULA 1 ETIHAD AIRWARS ABU DHABI GRAND PRIX
+  country: United Arab Emirates
+  country-code: ae
+  location: Abu Dhabi, UAE
+  race-date: 2020-11-13
+  date-formatted: 13th of November
