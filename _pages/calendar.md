@@ -12,7 +12,7 @@ image-credit: Dan Istitene / Getty Images
 order: 4
 ---
 
-The 2021 Formula 1 season will feature 22 races including the returning <img src="/assets/images/flag_placeholder.png" class="flag flag-nl ml-1 mb-2" /> <span class="pl-1 font-weight-bold">Dutch Grand Prix</span>.
+The 2021 Formula 1 season will feature 23 races including the returning <img src="/assets/images/flag_placeholder.png" class="flag flag-nl ml-1 mb-2" /> <span class="pl-1 font-weight-bold">Dutch Grand Prix</span>.
 
 <div class="alert alert-primary" role="alert">
 The next race is the <img src="/assets/images/flag_placeholder.png" class="flag ml-1 mb-2" id="nextraceimg" /> <span class="pl-1 font-weight-bold" id="nextracename">{{ next_race }}</span> held in <span class="font-weight-bold" id="nextracelocation"></span> on the <span class="font-weight-bold" id="nextracedate"></span>.
