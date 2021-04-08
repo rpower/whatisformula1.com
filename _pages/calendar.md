@@ -7,14 +7,12 @@ image-alt-text: Multiple Formula 1 cars are navigating a tight hairpin at the Mo
 in-page-image: vettel-leads-canadian-gp
 in-page-image-caption: Ferrari driver Sebastian Vettel leads the pack at the 2019 Canadian Grand Prix
 in-page-image-alt-text: A Ferrari leads a train of 19 other Formula 1 cars around a chicane at the Canadian Grand Prix
-preview-text: The 2020 Formula 1 season is contested over 21 Grand Prix held around the world. These include historic races such as the Monaco Grand Prix and the British Grand Prix but also new races such as...
+preview-text: The 2021 Formula 1 season is contested over 22 Grand Prix held around the world. These include historic races such as the Monaco Grand Prix and the British Grand Prix but also new races such as...
 image-credit: Dan Istitene / Getty Images
 order: 4
 ---
 
-The 2020 Formula 1 season has been disrupted by the global pandemic. The races included in this year's competition are still up in the air, but the calendar so far is below.
-
-The disrupted 2020 season will not include the new <img src="/assets/images/flag_placeholder.png" class="flag flag-vn ml-1 mb-2" /> <span class="pl-1 font-weight-bold">Vietnam Grand Prix</span> or the returning <img src="/assets/images/flag_placeholder.png" class="flag flag-nl ml-1 mb-2" /> <span class="pl-1 font-weight-bold">Dutch Grand Prix</span>.
+The 2021 Formula 1 season will feature 22 races including the returning <img src="/assets/images/flag_placeholder.png" class="flag flag-nl ml-1 mb-2" /> <span class="pl-1 font-weight-bold">Dutch Grand Prix</span>.
 
 <div class="alert alert-primary" role="alert">
 The next race is the <img src="/assets/images/flag_placeholder.png" class="flag ml-1 mb-2" id="nextraceimg" /> <span class="pl-1 font-weight-bold" id="nextracename">{{ next_race }}</span> held in <span class="font-weight-bold" id="nextracelocation"></span> on the <span class="font-weight-bold" id="nextracedate"></span>.
@@ -56,7 +54,7 @@ The next race is the <img src="/assets/images/flag_placeholder.png" class="flag 
   document.querySelector('#nextracedate').innerHTML = nextRaceDate;
 </script>
 
-Below is the calendar of races that have been confirmed so far for the 2020 Formula 1 season:
+Below is the calendar of races that have been confirmed so far for the 2021 Formula 1 season:
 
 <div class="container">
   <div class="row pb-1 justify-content-center">

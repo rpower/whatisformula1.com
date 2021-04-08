@@ -90,9 +90,7 @@
     </figure><!-- End page image -->
 
     <div class="article-post pb-4">
-    <p>The 2020 Formula 1 season has been disrupted by the global pandemic. The races included in this year’s competition are still up in the air, but the calendar so far is below.</p>
-
-<p>The disrupted 2020 season will not include the new <img src="/assets/images/flag_placeholder.png" class="flag flag-vn ml-1 mb-2" /> <span class="pl-1 font-weight-bold">Vietnam Grand Prix</span> or the returning <img src="/assets/images/flag_placeholder.png" class="flag flag-nl ml-1 mb-2" /> <span class="pl-1 font-weight-bold">Dutch Grand Prix</span>.</p>
+    <p>The 2021 Formula 1 season will feature 22 races including the returning <img src="/assets/images/flag_placeholder.png" class="flag flag-nl ml-1 mb-2" /> <span class="pl-1 font-weight-bold">Dutch Grand Prix</span>.</p>
 
 <div class="alert alert-primary" role="alert">
 The next race is the <img src="/assets/images/flag_placeholder.png" class="flag ml-1 mb-2" id="nextraceimg" /> <span class="pl-1 font-weight-bold" id="nextracename"></span> held in <span class="font-weight-bold" id="nextracelocation"></span> on the <span class="font-weight-bold" id="nextracedate"></span>.
@@ -102,139 +100,187 @@ The next race is the <img src="/assets/images/flag_placeholder.png" class="flag 
   var races = [
     
       {
-        'name': 'Austrian Grand Prix',
-        'date': '2020-07-05',
-        'countryCode': 'at',
-        'location': 'Spielberg, Austria',
-        'dateFormatted': '5th of July'
+        'name': 'Bahrain Grand Prix',
+        'date': '2021-03-28',
+        'countryCode': 'bh',
+        'location': 'Sakhir, Bahrain',
+        'dateFormatted': '28th of March'
       },
     
       {
-        'name': 'Styrian Grand Prix',
-        'date': '2020-07-12',
-        'countryCode': 'at',
-        'location': 'Spielberg, Austria',
-        'dateFormatted': '12th of July'
-      },
-    
-      {
-        'name': 'Hungarian Grand Prix',
-        'date': '2020-07-19',
-        'countryCode': 'hu',
-        'location': 'Mogyoród, Hungary',
-        'dateFormatted': '19th of July'
-      },
-    
-      {
-        'name': 'British Grand Prix',
-        'date': '2020-08-02',
-        'countryCode': 'gb',
-        'location': 'Silverstone, United Kingdom',
-        'dateFormatted': '2nd of August'
-      },
-    
-      {
-        'name': '70th Anniversary Grand Prix',
-        'date': '2020-08-09',
-        'countryCode': 'gb',
-        'location': 'Silverstone, United Kingdom',
-        'dateFormatted': '9th of August'
-      },
-    
-      {
-        'name': 'Spanish Grand Prix',
-        'date': '2020-08-16',
-        'countryCode': 'es',
-        'location': 'Catalonia, Spain',
-        'dateFormatted': '16th of August'
-      },
-    
-      {
-        'name': 'Belgian Grand Prix',
-        'date': '2020-08-30',
-        'countryCode': 'be',
-        'location': 'Spa, Belgium',
-        'dateFormatted': '30th of August'
-      },
-    
-      {
-        'name': 'Italian Grand Prix',
-        'date': '2020-09-06',
+        'name': 'Emilia Romagna Grand Prix',
+        'date': '2021-04-18',
         'countryCode': 'it',
-        'location': 'Monza, Italy',
-        'dateFormatted': '6th of September'
-      },
-    
-      {
-        'name': 'Tuscan Grand Prix',
-        'date': '2020-09-13',
-        'countryCode': 'it',
-        'location': 'Tuscany, Italy',
-        'dateFormatted': '13th of September'
-      },
-    
-      {
-        'name': 'Russian Grand Prix',
-        'date': '2020-09-27',
-        'countryCode': 'ru',
-        'location': 'Sochi, Russia',
-        'dateFormatted': '27th of September'
-      },
-    
-      {
-        'name': 'German Grand Prix',
-        'date': '2020-10-11',
-        'countryCode': 'de',
-        'location': 'Nürburg, Germany',
-        'dateFormatted': '11th of October'
+        'location': 'Imola, Italy',
+        'dateFormatted': '18th of April'
       },
     
       {
         'name': 'Portuguese Grand Prix',
-        'date': '2020-10-25',
+        'date': '2021-05-02',
         'countryCode': 'pt',
-        'location': 'Portimão, Portugal',
-        'dateFormatted': '25th of October'
+        'location': 'Portimao, Portugal',
+        'dateFormatted': '2nd of May'
       },
     
       {
-        'name': 'San Marino Grand Prix',
-        'date': '2020-11-01',
+        'name': 'Spanish Grand Prix',
+        'date': '2021-05-09',
+        'countryCode': 'es',
+        'location': 'Barcelona, Spain',
+        'dateFormatted': '9th of May'
+      },
+    
+      {
+        'name': 'Monaco Grand Prix',
+        'date': '2021-05-23',
+        'countryCode': 'mc',
+        'location': 'Monte Carlo, Monaco',
+        'dateFormatted': '23rd of May'
+      },
+    
+      {
+        'name': 'Azerbaijan Grand Prix',
+        'date': '2021-06-06',
+        'countryCode': 'az',
+        'location': 'Baku, Azerbaijan',
+        'dateFormatted': '6th of June'
+      },
+    
+      {
+        'name': 'Canadian Grand Prix',
+        'date': '2021-06-13',
+        'countryCode': 'ca',
+        'location': 'Montreal, Canada',
+        'dateFormatted': '13th of June'
+      },
+    
+      {
+        'name': 'French Grand Prix',
+        'date': '2021-06-27',
+        'countryCode': 'fr',
+        'location': 'Le Castellet, France',
+        'dateFormatted': '27th of June'
+      },
+    
+      {
+        'name': 'Austrian Grand Prix',
+        'date': '2021-07-04',
+        'countryCode': 'at',
+        'location': 'Spielberg, Austria',
+        'dateFormatted': '4th of July'
+      },
+    
+      {
+        'name': 'British Grand Prix',
+        'date': '2021-07-18',
+        'countryCode': 'gb',
+        'location': 'Silverstone, United Kingdom',
+        'dateFormatted': '18th of July'
+      },
+    
+      {
+        'name': 'Hungarian Grand Prix',
+        'date': '2021-08-01',
+        'countryCode': 'hu',
+        'location': 'Budapest, Hungary',
+        'dateFormatted': '1st of August'
+      },
+    
+      {
+        'name': 'Belgian Grand Prix',
+        'date': '2021-08-29',
+        'countryCode': 'be',
+        'location': 'Spa-Francorchamps, Belgium',
+        'dateFormatted': '29th of August'
+      },
+    
+      {
+        'name': 'Dutch Grand Prix',
+        'date': '2021-09-05',
+        'countryCode': 'nl',
+        'location': 'Zandvoort, Netherlands',
+        'dateFormatted': '5th of September'
+      },
+    
+      {
+        'name': 'Italian Grand Prix',
+        'date': '2021-09-12',
         'countryCode': 'it',
-        'location': 'Imola, Italy',
-        'dateFormatted': '1st of November'
+        'location': 'Monza, Italy',
+        'dateFormatted': '12th of September'
       },
     
       {
-        'name': 'Turkish Grand Prix',
-        'date': '2020-11-15',
-        'countryCode': 'tr',
-        'location': 'Istanbul, Turkey',
-        'dateFormatted': '15th of November'
+        'name': 'Russian Grand Prix',
+        'date': '2021-09-26',
+        'countryCode': 'ru',
+        'location': 'Sochi, Russia',
+        'dateFormatted': '26th of September'
       },
     
       {
-        'name': 'Bahrain Grand Prix 1',
-        'date': '2020-11-29',
-        'countryCode': 'bh',
-        'location': 'Sakhir, Bahrain',
-        'dateFormatted': '29th of November'
+        'name': 'Singapore Grand Prix',
+        'date': '2021-10-03',
+        'countryCode': 'sg',
+        'location': 'Singapore',
+        'dateFormatted': '3rd of October'
       },
     
       {
-        'name': 'Bahrain Grand Prix 2',
-        'date': '2020-11-06',
-        'countryCode': 'bh',
-        'location': 'Sakhir, Bahrain',
+        'name': 'Japanese Grand Prix',
+        'date': '2021-10-10',
+        'countryCode': 'jp',
+        'location': 'Suzuka, Japan',
+        'dateFormatted': '10th of October'
+      },
+    
+      {
+        'name': 'United States Grand Prix',
+        'date': '2021-10-24',
+        'countryCode': 'us',
+        'location': 'Austin, USA',
+        'dateFormatted': '24th of October'
+      },
+    
+      {
+        'name': 'Mexican Grand Prix',
+        'date': '2021-10-31',
+        'countryCode': 'mx',
+        'location': 'Mexico City, Mexico',
+        'dateFormatted': '31st of October'
+      },
+    
+      {
+        'name': 'Brazilian Grand Prix',
+        'date': '2021-11-12',
+        'countryCode': 'br',
+        'location': 'Sao Paulo, Brazil',
+        'dateFormatted': '12th of November'
+      },
+    
+      {
+        'name': 'Australian Grand Prix',
+        'date': '2021-11-21',
+        'countryCode': 'au',
+        'location': 'Melbourne, Australia',
+        'dateFormatted': '21st of November'
+      },
+    
+      {
+        'name': 'Saudi Arabian Grand Prix',
+        'date': '2021-12-06',
+        'countryCode': 'sa',
+        'location': 'Saudi Arabia',
         'dateFormatted': '6th of December'
       },
     
       {
         'name': 'Abu Dhabi Grand Prix',
-        'date': '2020-11-13',
+        'date': '2021-12-12',
         'countryCode': 'ae',
         'location': 'Abu Dhabi, UAE',
-        'dateFormatted': '13th of November'
+        'dateFormatted': '12th of December'
       }
     
   ];
@@ -262,7 +308,7 @@ The next race is the <img src="/assets/images/flag_placeholder.png" class="flag 
   document.querySelector('#nextracedate').innerHTML = nextRaceDate;
 </script>
 
-<p>Below is the calendar of races that have been confirmed so far for the 2020 Formula 1 season:</p>
+<p>Below is the calendar of races that have been confirmed so far for the 2021 Formula 1 season:</p>
 
 <div class="container">
   <div class="row pb-1 justify-content-center">
@@ -274,122 +320,164 @@ The next race is the <img src="/assets/images/flag_placeholder.png" class="flag 
     </div>
   </div><div class="row py-1 justify-content-center">
       <div class="col-8 col-sm-6 col-lg-4">
-        <img src="/assets/images/flag_placeholder.png" class="flag flag-at" /> <span class="pl-1">Austrian Grand Prix</span>
+        <img src="/assets/images/flag_placeholder.png" class="flag flag-bh" /> <span class="pl-1">Bahrain Grand Prix</span>
       </div>
       <div class="col-4 col-sm-4 col-lg-4">
-        05 Jul
+        28 Mar
       </div>
     </div><div class="row py-1 justify-content-center">
       <div class="col-8 col-sm-6 col-lg-4">
-        <img src="/assets/images/flag_placeholder.png" class="flag flag-at" /> <span class="pl-1">Styrian Grand Prix</span>
+        <img src="/assets/images/flag_placeholder.png" class="flag flag-it" /> <span class="pl-1">Emilia Romagna Grand Prix</span>
       </div>
       <div class="col-4 col-sm-4 col-lg-4">
-        12 Jul
-      </div>
-    </div><div class="row py-1 justify-content-center">
-      <div class="col-8 col-sm-6 col-lg-4">
-        <img src="/assets/images/flag_placeholder.png" class="flag flag-hu" /> <span class="pl-1">Hungarian Grand Prix</span>
-      </div>
-      <div class="col-4 col-sm-4 col-lg-4">
-        19 Jul
-      </div>
-    </div><div class="row py-1 justify-content-center">
-      <div class="col-8 col-sm-6 col-lg-4">
-        <img src="/assets/images/flag_placeholder.png" class="flag flag-gb" /> <span class="pl-1">British Grand Prix</span>
-      </div>
-      <div class="col-4 col-sm-4 col-lg-4">
-        02 Aug
-      </div>
-    </div><div class="row py-1 justify-content-center">
-      <div class="col-8 col-sm-6 col-lg-4">
-        <img src="/assets/images/flag_placeholder.png" class="flag flag-gb" /> <span class="pl-1">70th Anniversary Grand Prix</span>
-      </div>
-      <div class="col-4 col-sm-4 col-lg-4">
-        09 Aug
-      </div>
-    </div><div class="row py-1 justify-content-center">
-      <div class="col-8 col-sm-6 col-lg-4">
-        <img src="/assets/images/flag_placeholder.png" class="flag flag-es" /> <span class="pl-1">Spanish Grand Prix</span>
-      </div>
-      <div class="col-4 col-sm-4 col-lg-4">
-        16 Aug
-      </div>
-    </div><div class="row py-1 justify-content-center">
-      <div class="col-8 col-sm-6 col-lg-4">
-        <img src="/assets/images/flag_placeholder.png" class="flag flag-be" /> <span class="pl-1">Belgian Grand Prix</span>
-      </div>
-      <div class="col-4 col-sm-4 col-lg-4">
-        30 Aug
-      </div>
-    </div><div class="row py-1 justify-content-center">
-      <div class="col-8 col-sm-6 col-lg-4">
-        <img src="/assets/images/flag_placeholder.png" class="flag flag-it" /> <span class="pl-1">Italian Grand Prix</span>
-      </div>
-      <div class="col-4 col-sm-4 col-lg-4">
-        06 Sep
-      </div>
-    </div><div class="row py-1 justify-content-center">
-      <div class="col-8 col-sm-6 col-lg-4">
-        <img src="/assets/images/flag_placeholder.png" class="flag flag-it" /> <span class="pl-1">Tuscan Grand Prix</span>
-      </div>
-      <div class="col-4 col-sm-4 col-lg-4">
-        13 Sep
-      </div>
-    </div><div class="row py-1 justify-content-center">
-      <div class="col-8 col-sm-6 col-lg-4">
-        <img src="/assets/images/flag_placeholder.png" class="flag flag-ru" /> <span class="pl-1">Russian Grand Prix</span>
-      </div>
-      <div class="col-4 col-sm-4 col-lg-4">
-        27 Sep
-      </div>
-    </div><div class="row py-1 justify-content-center">
-      <div class="col-8 col-sm-6 col-lg-4">
-        <img src="/assets/images/flag_placeholder.png" class="flag flag-de" /> <span class="pl-1">German Grand Prix</span>
-      </div>
-      <div class="col-4 col-sm-4 col-lg-4">
-        11 Oct
+        18 Apr
       </div>
     </div><div class="row py-1 justify-content-center">
       <div class="col-8 col-sm-6 col-lg-4">
         <img src="/assets/images/flag_placeholder.png" class="flag flag-pt" /> <span class="pl-1">Portuguese Grand Prix</span>
       </div>
       <div class="col-4 col-sm-4 col-lg-4">
-        25 Oct
+        02 May
       </div>
     </div><div class="row py-1 justify-content-center">
       <div class="col-8 col-sm-6 col-lg-4">
-        <img src="/assets/images/flag_placeholder.png" class="flag flag-it" /> <span class="pl-1">San Marino Grand Prix</span>
+        <img src="/assets/images/flag_placeholder.png" class="flag flag-es" /> <span class="pl-1">Spanish Grand Prix</span>
       </div>
       <div class="col-4 col-sm-4 col-lg-4">
-        01 Nov
+        09 May
       </div>
     </div><div class="row py-1 justify-content-center">
       <div class="col-8 col-sm-6 col-lg-4">
-        <img src="/assets/images/flag_placeholder.png" class="flag flag-tr" /> <span class="pl-1">Turkish Grand Prix</span>
+        <img src="/assets/images/flag_placeholder.png" class="flag flag-mc" /> <span class="pl-1">Monaco Grand Prix</span>
       </div>
       <div class="col-4 col-sm-4 col-lg-4">
-        15 Nov
+        23 May
       </div>
     </div><div class="row py-1 justify-content-center">
       <div class="col-8 col-sm-6 col-lg-4">
-        <img src="/assets/images/flag_placeholder.png" class="flag flag-bh" /> <span class="pl-1">Bahrain Grand Prix 1</span>
+        <img src="/assets/images/flag_placeholder.png" class="flag flag-az" /> <span class="pl-1">Azerbaijan Grand Prix</span>
       </div>
       <div class="col-4 col-sm-4 col-lg-4">
-        29 Nov
+        06 Jun
       </div>
     </div><div class="row py-1 justify-content-center">
       <div class="col-8 col-sm-6 col-lg-4">
-        <img src="/assets/images/flag_placeholder.png" class="flag flag-bh" /> <span class="pl-1">Bahrain Grand Prix 2</span>
+        <img src="/assets/images/flag_placeholder.png" class="flag flag-ca" /> <span class="pl-1">Canadian Grand Prix</span>
       </div>
       <div class="col-4 col-sm-4 col-lg-4">
-        06 Nov
+        13 Jun
+      </div>
+    </div><div class="row py-1 justify-content-center">
+      <div class="col-8 col-sm-6 col-lg-4">
+        <img src="/assets/images/flag_placeholder.png" class="flag flag-fr" /> <span class="pl-1">French Grand Prix</span>
+      </div>
+      <div class="col-4 col-sm-4 col-lg-4">
+        27 Jun
+      </div>
+    </div><div class="row py-1 justify-content-center">
+      <div class="col-8 col-sm-6 col-lg-4">
+        <img src="/assets/images/flag_placeholder.png" class="flag flag-at" /> <span class="pl-1">Austrian Grand Prix</span>
+      </div>
+      <div class="col-4 col-sm-4 col-lg-4">
+        04 Jul
+      </div>
+    </div><div class="row py-1 justify-content-center">
+      <div class="col-8 col-sm-6 col-lg-4">
+        <img src="/assets/images/flag_placeholder.png" class="flag flag-gb" /> <span class="pl-1">British Grand Prix</span>
+      </div>
+      <div class="col-4 col-sm-4 col-lg-4">
+        18 Jul
+      </div>
+    </div><div class="row py-1 justify-content-center">
+      <div class="col-8 col-sm-6 col-lg-4">
+        <img src="/assets/images/flag_placeholder.png" class="flag flag-hu" /> <span class="pl-1">Hungarian Grand Prix</span>
+      </div>
+      <div class="col-4 col-sm-4 col-lg-4">
+        01 Aug
+      </div>
+    </div><div class="row py-1 justify-content-center">
+      <div class="col-8 col-sm-6 col-lg-4">
+        <img src="/assets/images/flag_placeholder.png" class="flag flag-be" /> <span class="pl-1">Belgian Grand Prix</span>
+      </div>
+      <div class="col-4 col-sm-4 col-lg-4">
+        29 Aug
+      </div>
+    </div><div class="row py-1 justify-content-center">
+      <div class="col-8 col-sm-6 col-lg-4">
+        <img src="/assets/images/flag_placeholder.png" class="flag flag-nl" /> <span class="pl-1">Dutch Grand Prix</span>
+      </div>
+      <div class="col-4 col-sm-4 col-lg-4">
+        05 Sep
+      </div>
+    </div><div class="row py-1 justify-content-center">
+      <div class="col-8 col-sm-6 col-lg-4">
+        <img src="/assets/images/flag_placeholder.png" class="flag flag-it" /> <span class="pl-1">Italian Grand Prix</span>
+      </div>
+      <div class="col-4 col-sm-4 col-lg-4">
+        12 Sep
+      </div>
+    </div><div class="row py-1 justify-content-center">
+      <div class="col-8 col-sm-6 col-lg-4">
+        <img src="/assets/images/flag_placeholder.png" class="flag flag-ru" /> <span class="pl-1">Russian Grand Prix</span>
+      </div>
+      <div class="col-4 col-sm-4 col-lg-4">
+        26 Sep
+      </div>
+    </div><div class="row py-1 justify-content-center">
+      <div class="col-8 col-sm-6 col-lg-4">
+        <img src="/assets/images/flag_placeholder.png" class="flag flag-sg" /> <span class="pl-1">Singapore Grand Prix</span>
+      </div>
+      <div class="col-4 col-sm-4 col-lg-4">
+        03 Oct
+      </div>
+    </div><div class="row py-1 justify-content-center">
+      <div class="col-8 col-sm-6 col-lg-4">
+        <img src="/assets/images/flag_placeholder.png" class="flag flag-jp" /> <span class="pl-1">Japanese Grand Prix</span>
+      </div>
+      <div class="col-4 col-sm-4 col-lg-4">
+        10 Oct
+      </div>
+    </div><div class="row py-1 justify-content-center">
+      <div class="col-8 col-sm-6 col-lg-4">
+        <img src="/assets/images/flag_placeholder.png" class="flag flag-us" /> <span class="pl-1">United States Grand Prix</span>
+      </div>
+      <div class="col-4 col-sm-4 col-lg-4">
+        24 Oct
+      </div>
+    </div><div class="row py-1 justify-content-center">
+      <div class="col-8 col-sm-6 col-lg-4">
+        <img src="/assets/images/flag_placeholder.png" class="flag flag-mx" /> <span class="pl-1">Mexican Grand Prix</span>
+      </div>
+      <div class="col-4 col-sm-4 col-lg-4">
+        31 Oct
+      </div>
+    </div><div class="row py-1 justify-content-center">
+      <div class="col-8 col-sm-6 col-lg-4">
+        <img src="/assets/images/flag_placeholder.png" class="flag flag-br" /> <span class="pl-1">Brazilian Grand Prix</span>
+      </div>
+      <div class="col-4 col-sm-4 col-lg-4">
+        12 Nov
+      </div>
+    </div><div class="row py-1 justify-content-center">
+      <div class="col-8 col-sm-6 col-lg-4">
+        <img src="/assets/images/flag_placeholder.png" class="flag flag-au" /> <span class="pl-1">Australian Grand Prix</span>
+      </div>
+      <div class="col-4 col-sm-4 col-lg-4">
+        21 Nov
+      </div>
+    </div><div class="row py-1 justify-content-center">
+      <div class="col-8 col-sm-6 col-lg-4">
+        <img src="/assets/images/flag_placeholder.png" class="flag flag-sa" /> <span class="pl-1">Saudi Arabian Grand Prix</span>
+      </div>
+      <div class="col-4 col-sm-4 col-lg-4">
+        06 Dec
       </div>
     </div><div class="row py-1 justify-content-center">
       <div class="col-8 col-sm-6 col-lg-4">
         <img src="/assets/images/flag_placeholder.png" class="flag flag-ae" /> <span class="pl-1">Abu Dhabi Grand Prix</span>
       </div>
       <div class="col-4 col-sm-4 col-lg-4">
-        13 Nov
+        12 Dec
       </div>
     </div></div>
 
@@ -426,7 +514,7 @@ The next race is the <img src="/assets/images/flag_placeholder.png" class="flag 
                       Drivers
                     </a>
                 </h2>
-                <h4 class="card-text">Learn about the 20 drivers competing in the 2020 Formula 1 championship including Lewis Hamilton, the defending World Drivers' Champion, who is looking to win his 6th championship this year.</h4>
+                <h4 class="card-text">Learn about the 20 drivers competing in the 2021 Formula 1 championship including Lewis Hamilton, the defending World Drivers' Champion, who is looking to win his 7th championship this year.</h4>
             </div>
       </div>
   </div>
@@ -486,7 +574,7 @@ The next race is the <img src="/assets/images/flag_placeholder.png" class="flag 
                       Calendar
                     </a>
                 </h2>
-                <h4 class="card-text">The 2020 Formula 1 season is contested over 21 Grand Prix held around the world. These include historic races such as the Monaco Grand Prix and the British Grand Prix but also new races such as...</h4>
+                <h4 class="card-text">The 2021 Formula 1 season is contested over 22 Grand Prix held around the world. These include historic races such as the Monaco Grand Prix and the British Grand Prix but also new races such as...</h4>
             </div>
       </div>
   </div>
@@ -504,7 +592,7 @@ The next race is the <img src="/assets/images/flag_placeholder.png" class="flag 
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-sm-6 text-center text-lg-left">
-                Copyright © 2020 What is FORMULA 1?
+                Copyright © 2021 What is FORMULA 1?
             </div>
             <div class="col-md-6 col-sm-6 text-center text-lg-right">
 								<a href="/contact/">Contact</a>

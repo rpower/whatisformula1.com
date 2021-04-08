@@ -1,119 +1,138 @@
-- name: Austrian Grand Prix
-  official_name: Formula 1 Rolex Grosser Preis von Osterreich
-  country: Austria
-  country-code: at
-  location: Spielberg, Austria
-  race-date:  2020-07-05
-  date-formatted: 5th of July
-- name: Styrian Grand Prix
-  official_name: Formula 1 Pirelli Grosser Preis der Steiermark
-  country: Austria
-  country-code: at
-  location: Spielberg, Austria
-  race-date:  2020-07-12
-  date-formatted: 12th of July
-- name: Hungarian Grand Prix
-  official_name: Formula 1 Aramco Magyar Nagydij
-  country: Hungary
-  country-code: hu
-  location: Mogyoród, Hungary
-  race-date: 2020-07-19
-  date-formatted: 19th of July
-- name: British Grand Prix
-  official_name: Formula 1 Pirelli British Grand Prix
-  country: United Kingdom
-  country-code: gb
-  location: Silverstone, United Kingdom
-  race-date: 2020-08-02
-  date-formatted: 2nd of August
-- name: 70th Anniversary Grand Prix
-  official_name: Emirates Formula 1 70th Anniversary Grand Prix
-  country: United Kingdom
-  country-code: gb
-  location: Silverstone, United Kingdom
-  race-date: 2020-08-09
-  date-formatted: 9th of August
-- name: Spanish Grand Prix
-  official_name: Formula 1 Aramco Gran Premio de Espana
-  country: Spain
-  country-code: es
-  location: Catalonia, Spain
-  race-date: 2020-08-16
-  date-formatted: 16th of August
-- name: Belgian Grand Prix
-  official_name: Formula 1 Rolex Belgian Grand Prix
-  country: Belgium
-  country-code: be
-  location: Spa, Belgium
-  race-date: 2020-08-30
-  date-formatted: 30th of August
-- name: Italian Grand Prix
-  official_name: FORMULA 1 GRAN PREMIO HEINEKEN D'ITALIA 2020
-  country: Italy
-  country-code: it
-  location: Monza, Italy
-  race-date: 2020-09-06
-  date-formatted: 6th of September
-- name: Tuscan Grand Prix
-  official_name: FORMULA 1 GRAN PREMIO DELLA TOSCANA FERRARI 1000
-  country: Italy
-  country-code: it
-  location: Tuscany, Italy
-  race-date: 2020-09-13
-  date-formatted: 13th of September
-- name: Russian Grand Prix
-  official_name: FORMULA 1 VTB RUSSIAN GRAND PRIX 2020
-  country: Russia
-  country-code: ru
-  location: Sochi, Russia
-  race-date: 2020-09-27
-  date-formatted: 27th of September
-- name: German Grand Prix
-  official_name: FORMULA 1 ARAMCO GROSSER PREIS DER EIFEL
-  country: Germany
-  country-code: de
-  location: Nürburg, Germany
-  race-date: 2020-10-11
-  date-formatted: 11th of October
-- name: Portuguese Grand Prix
-  official_name: FORMULA 1 HEINEKEN PORTUGUESE GRAND PRIX
-  country: Portugal
-  country-code: pt
-  location: Portimão, Portugal
-  race-date: 2020-10-25
-  date-formatted: 25th of October
-- name: San Marino Grand Prix
-  official_name: FORMULA 1 HEINEKEN PORTUGUESE GRAND PRIX
+- name: Bahrain Grand Prix
+  country: Bahrain
+  country-code: bh
+  location: Sakhir, Bahrain
+  race-date:  2021-03-28
+  date-formatted: 28th of March
+- name: Emilia Romagna Grand Prix
   country: Italy
   country-code: it
   location: Imola, Italy
-  race-date: 2020-11-01
-  date-formatted: 1st of November
-- name: Turkish Grand Prix
-  official_name: FORMULA 1 DHL TURKISH GRAND PRIX
-  country: Turkey
-  country-code: tr
-  location: Istanbul, Turkey
-  race-date: 2020-11-15
-  date-formatted: 15th of November
-- name: Bahrain Grand Prix 1
-  official_name: FORMULA 1 GULF AIR BAHRAIN GRAND PRIX
-  country: Bahrain
-  country-code: bh
-  location: Sakhir, Bahrain
-  race-date: 2020-11-29
-  date-formatted: 29th of November
-- name: Bahrain Grand Prix 2
-  official_name: FORMULA 1 ROLEX SAKHIR GRAND PRIX
-  country: Bahrain
-  country-code: bh
-  location: Sakhir, Bahrain
-  race-date: 2020-11-06
+  race-date: 2021-04-18
+  date-formatted: 18th of April
+- name: Portuguese Grand Prix
+  country: Portugal
+  country-code: pt
+  location: Portimao, Portugal
+  race-date: 2021-05-02
+  date-formatted: 2nd of May
+- name: Spanish Grand Prix
+  country: Spain
+  country-code: es
+  location: Barcelona, Spain
+  race-date: 2021-05-09
+  date-formatted: 9th of May
+- name: Monaco Grand Prix
+  country: Monaco
+  country-code: mc
+  location: Monte Carlo, Monaco
+  race-date: 2021-05-23
+  date-formatted: 23rd of May
+- name: Azerbaijan Grand Prix
+  country: Azerbaijan
+  country-code: az
+  location: Baku, Azerbaijan
+  race-date: 2021-06-06
+  date-formatted: 6th of June
+- name: Canadian Grand Prix
+  country: Canada
+  country-code: ca
+  location: Montreal, Canada
+  race-date: 2021-06-13
+  date-formatted: 13th of June
+- name: French Grand Prix
+  country: France
+  country-code: fr
+  location: Le Castellet, France
+  race-date: 2021-06-27
+  date-formatted: 27th of June
+- name: Austrian Grand Prix
+  country: Austria
+  country-code: at
+  location: Spielberg, Austria
+  race-date: 2021-07-04
+  date-formatted: 4th of July
+- name: British Grand Prix
+  country: Great Britian
+  country-code: gb
+  location: Silverstone, United Kingdom
+  race-date: 2021-07-18
+  date-formatted: 18th of July
+- name: Hungarian Grand Prix
+  country: Hungary
+  country-code: hu
+  location: Budapest, Hungary
+  race-date: 2021-08-01
+  date-formatted: 1st of August
+- name: Belgian Grand Prix
+  country: Belgium
+  country-code: be
+  location: Spa-Francorchamps, Belgium
+  race-date: 2021-08-29
+  date-formatted: 29th of August
+- name: Dutch Grand Prix
+  country: Netherlands
+  country-code: nl
+  location: Zandvoort, Netherlands
+  race-date: 2021-09-05
+  date-formatted: 5th of September
+- name: Italian Grand Prix
+  country: Italy
+  country-code: it
+  location: Monza, Italy
+  race-date: 2021-09-12
+  date-formatted: 12th of September
+- name: Russian Grand Prix
+  country: Russia
+  country-code: ru
+  location: Sochi, Russia
+  race-date: 2021-09-26
+  date-formatted: 26th of September
+- name: Singapore Grand Prix
+  country: Singapore
+  country-code: sg
+  location: Singapore
+  race-date: 2021-10-03
+  date-formatted: 3rd of October
+- name: Japanese Grand Prix
+  country: Japan
+  country-code: jp
+  location: Suzuka, Japan
+  race-date: 2021-10-10
+  date-formatted: 10th of October
+- name: United States Grand Prix
+  country: United States
+  country-code: us
+  location: Austin, USA
+  race-date: 2021-10-24
+  date-formatted: 24th of October
+- name: Mexican Grand Prix
+  country: Mexico
+  country-code: mx
+  location: Mexico City, Mexico
+  race-date: 2021-10-31
+  date-formatted: 31st of October
+- name: Brazilian Grand Prix
+  country: Brazil
+  country-code: br
+  location: Sao Paulo, Brazil
+  race-date: 2021-11-12
+  date-formatted: 12th of November
+- name: Australian Grand Prix
+  country: Australia
+  country-code: au
+  location: Melbourne, Australia
+  race-date: 2021-11-21
+  date-formatted: 21st of November
+- name: Saudi Arabian Grand Prix
+  country: Saudi Arabia
+  country-code: sa
+  location: Saudi Arabia
+  race-date: 2021-12-06
   date-formatted: 6th of December
 - name: Abu Dhabi Grand Prix
-  official_name: FORMULA 1 ETIHAD AIRWARS ABU DHABI GRAND PRIX
-  country: United Arab Emirates
+  country: Abu Dhabi
   country-code: ae
   location: Abu Dhabi, UAE
-  race-date: 2020-11-13
-  date-formatted: 13th of November
+  race-date: 2021-12-12
+  date-formatted: 12th of December

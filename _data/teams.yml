@@ -2,7 +2,7 @@
   full_name: Mercedes-AMG Petronas Motorsport
   country: Germany
   country-code: de
-  description: Mercedes are the reigning World Constructors' Champions, meaning they are the team to beat in 2020. Having built a car which is fast in almost all areas of the track, other teams will be looking to knock them off their perch.
+  description: Mercedes are the reigning World Constructors' Champions, meaning they are the team to beat in 2021. Having built a car which is fast in almost all areas of the track, other teams will be looking to knock them off their perch.
   engine: Mercedes
 - name: Ferrari
   full_name: Scuderia Ferrari
@@ -16,30 +16,30 @@
   country-code: at
   description: Despite winning 4 World Constructors' Championships in a row between 2010 and 2013, Red Bull have not been able to repeat that same success and are up their with Ferrari as being the most credible threats to Mercedes dominance.
   engine: Honda
-- name: Renault
-  full_name: Renault
+- name: Alpine
+  full_name: Alpine
   country: France
   country-code: fr
-  description: Renault took a step-back in results last year, and with one of the best drivers on the grid in Daniel Ricciardo on their team, they're looking to improve quickly.
+  description: Alpine, formerly Renault, took a step-back in results last year, and with former champion Fernando Alonso returning to the team, they're looking to improve quickly.
   engine: Renault
 - name: McLaren
   full_name: McLaren
   country: United Kingdom
   country-code: gb
-  engine: Renault
-  description: The British constructor, who rely on Renault for their engines, are in a rebuilding phase following a poor 2018 season. In the previous season they out-matches expectations considerably.
+  engine: Mercedes
+  description: The British constructor, who now rely on Mercedes for their engines will be building on the previous season where they out-matched expectations considerably.
 - name: Haas
   full_name: Haas
   country: United States
   country-code: us
   engine: Ferrari
-  description: Based in the United States, Haas are the newest constructor to enter Formula 1 and came into this season looking to compete with Renault to become the best constructor outside of the top 3 teams.
-- name: Racing Point
-  full_name: SportPesa Racing Point
+  description: Based in the United States, Haas are the newest constructor to enter Formula 1 and came into this season with two rookies, a rare event.
+- name: Aston Martin
+  full_name: Aston Martin Cognizant F1 Team
   country: United Kingdom
   country-code: gb
   engine: Mercedes
-  description: After financial difficulties during the last season, the old Force India team was saved from administration by Lance Strolls father and renamed Racing Point.
+  description: The former Racing Point team have been rebranded to Aston Martin and feature veteran Sebastian Vettel as one of their drivers this year.
 - name: Williams
   full_name: ROKiT Williams Racing
   country: United Kingdom
