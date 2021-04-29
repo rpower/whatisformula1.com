@@ -34,10 +34,10 @@
   location: Baku, Azerbaijan
   race-date: 2021-06-06
   date-formatted: 6th of June
-- name: Canadian Grand Prix
-  country: Canada
-  country-code: ca
-  location: Montreal, Canada
+- name: Turkish Grand Prix
+  country: Turkey
+  country-code: tr
+  location: Istanbul, Turkey
   race-date: 2021-06-13
   date-formatted: 13th of June
 - name: French Grand Prix
