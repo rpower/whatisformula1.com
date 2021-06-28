@@ -34,16 +34,16 @@
   location: Baku, Azerbaijan
   race-date: 2021-06-06
   date-formatted: 6th of June
-- name: Turkish Grand Prix
-  country: Turkey
-  country-code: tr
-  location: Istanbul, Turkey
-  race-date: 2021-06-13
-  date-formatted: 13th of June
 - name: French Grand Prix
   country: France
   country-code: fr
   location: Le Castellet, France
+  race-date: 2021-06-20
+  date-formatted: 20th of June
+- name: Styrian Grand Prix
+  country: Austria
+  country-code: at
+  location: Spielberg, Austria
   race-date: 2021-06-27
   date-formatted: 27th of June
 - name: Austrian Grand Prix
@@ -88,10 +88,10 @@
   location: Sochi, Russia
   race-date: 2021-09-26
   date-formatted: 26th of September
-- name: Singapore Grand Prix
-  country: Singapore
-  country-code: sg
-  location: Singapore
+- name: Turkish Grand Prix
+  country: Turkey
+  country-code: tr
+  location: Istanbul, Turkey
   race-date: 2021-10-03
   date-formatted: 3rd of October
 - name: Japanese Grand Prix
@@ -116,8 +116,8 @@
   country: Brazil
   country-code: br
   location: Sao Paulo, Brazil
-  race-date: 2021-11-12
-  date-formatted: 12th of November
+  race-date: 2021-11-07
+  date-formatted: 7th of November
 - name: Australian Grand Prix
   country: Australia
   country-code: au
