@@ -118,12 +118,6 @@
   location: Sao Paulo, Brazil
   race-date: 2021-11-07
   date-formatted: 7th of November
-- name: Australian Grand Prix
-  country: Australia
-  country-code: au
-  location: Melbourne, Australia
-  race-date: 2021-11-21
-  date-formatted: 21st of November
 - name: Saudi Arabian Grand Prix
   country: Saudi Arabia
   country-code: sa
