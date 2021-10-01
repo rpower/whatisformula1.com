@@ -94,12 +94,6 @@
   location: Istanbul, Turkey
   race-date: 2021-10-03
   date-formatted: 3rd of October
-- name: Japanese Grand Prix
-  country: Japan
-  country-code: jp
-  location: Suzuka, Japan
-  race-date: 2021-10-10
-  date-formatted: 10th of October
 - name: United States Grand Prix
   country: United States
   country-code: us
@@ -110,14 +104,20 @@
   country: Mexico
   country-code: mx
   location: Mexico City, Mexico
-  race-date: 2021-10-31
-  date-formatted: 31st of October
+  race-date: 2021-11-07
+  date-formatted: 7th of November
 - name: Brazilian Grand Prix
   country: Brazil
   country-code: br
   location: Sao Paulo, Brazil
-  race-date: 2021-11-07
-  date-formatted: 7th of November
+  race-date: 2021-11-14
+  date-formatted: 14th of November
+- name: Qatar Grand Prix
+  country: Qatar
+  country-code: qa
+  location: Lusail, Qatar
+  race-date: 2021-11-21
+  date-formatted: 21st of November
 - name: Saudi Arabian Grand Prix
   country: Saudi Arabia
   country-code: sa
