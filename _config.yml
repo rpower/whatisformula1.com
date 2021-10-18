@@ -11,7 +11,7 @@ permalink: /:title
 collections_dir: collections
 
 # # Environment
-# environment: production
+environment: production
 
 # Plugins
 plugins:
