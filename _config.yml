@@ -10,8 +10,8 @@ include: ["_pages"]
 permalink: /:title
 collections_dir: collections
 
-# Environment
-environment: production
+# # Environment
+# environment: production
 
 # Plugins
 plugins:
