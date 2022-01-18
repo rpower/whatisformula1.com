@@ -160,27 +160,20 @@
 <script src="{{ site.baseurl }}/assets/js/ie10-viewport-bug-workaround.js"></script>
 
 {%- if site.environment == "production" -%}
-	{%- assign matomo_site_id = 1 -%}
+	{%- assign ga_measurement_id = "G-R8KWF3G3GL" -%}
 {%- else -%}
-	{%- assign matomo_site_id = 2 -%}
+	{%- assign ga_measurement_id = "G-D15JL7XT0Y" -%}
 {%- endif -%}
 
-<!-- Matomo -->
-<script type="text/javascript">
-  var _paq = window._paq || [];
-	_paq.push(['disableCookies']);
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
-    var u="//www.whatisformula1.com/matomo/";
-    _paq.push(['setTrackerUrl', u+'matomo.php']);
-    _paq.push(['setSiteId', '{{ matomo_site_id }}']);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
-  })();
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ ga_measurement_id }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '{{ ga_measurement_id }}');
 </script>
-<noscript><p><img src="//www.whatisformula1.com/matomo/matomo.php?idsite={{ matomo_site_id }}&amp;rec=1" style="border:0;" alt="" /></p></noscript>
-<!-- End Matomo Code -->
 
 </body>
 </html>
