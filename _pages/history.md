@@ -27,4 +27,4 @@ In the 90s, McLaren and Williams were the two dominant constructors. McLaren won
 
 Between 1984 and 2008, four teams, out of those who competed, Ferrari, Williams, McLaren and Renault went on to win every World Championship. The increasing cost of competing in Formula One a gap between the top teams and everyone else began to emerge. Ferrari driver **Michael Schumacher** dominated the late-90s winning 6 consecutive Drivers' World Championships between 1999 and 2004 (in addition to 5 consecutive Constructors' World Championships for Ferrari during the same time).
 
-Since then, rules and regulations for Formula 1 entrants continued to evolve to encourage more competitive races and improve safety on-track. Formula 1 continued to expand worldwide and in 2021 will compete in 22 different countries around the world.
+Since then, rules and regulations for Formula 1 entrants continued to evolve to encourage more competitive races and improve safety on-track. Formula 1 continued to expand worldwide and in 2022 will compete in 23 different countries around the world.

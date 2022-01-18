@@ -3,100 +3,99 @@
   country: United Kingdom
   country-code: gb
   code: ham
-  description: The defending World Drivers' Champion is pushing for a record-breaking 8th title win this season.
-- name: Valtteri Bottas
+  description:
+- name: George Russell
   team: Mercedes
-  country: Finland
-  country-code: fi
-  code: bot
-  description: Valterri is in his fifth year with Mercedes and is increasingly under pressure to perform as well as his teammate.
+  country: United Kingdom
+  country-code: gb
+  description:
 - name: Carlos Sainz
   team: Ferrari
   country: Spain
   country-code: es
-  description: Carlos joins Ferrari this year from McLaren hoping to make an impact.
+  description:
 - name: Charles Leclerc
   team: Ferrari
   country: Monaco
   country-code: mc
-  description: In his third year with the historic Ferrari, Leclerc is aiming to outperform new teammate.
+  description:
 - name: Max Verstappen
   team: Red Bull
   country: Netherlands
   country-code: nl
-  description: In 2016, Max became the youngest ever race-winner. Now in his sixth season in Formula 1, the Dutchman continues to set new records.
+  description:
 - name: Sergio Pérez
   team: Red Bull
   country: Mexico
   country-code: mx
-  description: Perez makes the move into Red Bull and expectations are high now that he's in a potentially title-winning car.
+  description:
 - name: Fernando Alonso
   team: Alpine
   country: Spain
   country-code: es
-  description: After two years out, the two-time champion Fernando Alonso returns to the sport.
+  description:
 - name: Esteban Ocon
   team: Alpine
   country: France
   country-code: fr
-  description: Esteban returns to F1 in his second year with the team with a point to prove.
-- name: Kimi Räikkönen
+  description:
+- name: Valtteri Bottas
   team: Alfa Romeo
   country: Finland
   country-code: fi
-  description: At 41 years old, Kimi is the veteran among the drivers with by far the most experience on track.
-- name: Antonio Giovinazzi
+  description:
+- name: Guanyu Zhou
   team: Alfa Romeo
-  country: Italy
-  country-code: it
-  description: Antonio is part of the Ferrari driver program and has been selected by Ferrari to partner Kimi at Alfa Romeo.
+  country: China
+  country-code: cn
+  description:
 - name: Mick Schumacher
   team: Haas
   country: Germany
   country-code: de
-  description: The Formula 2 champion makes his debut with the struggling Haas team.
+  description:
 - name: Nikita Mazepin
   team: Haas
   country: Russia
   country-code: ru
-  description: Mazepin joins Mick at Haas in a rare example of a team having two rookies as their drivers.
+  description:
 - name: Lando Norris
   team: McLaren
   country: United Kingdom
   country-code: gb
-  description: The 20 year old Lando impressed in his first year at McLaren and is looking to build on that this season.
+  description:
 - name: Daniel Ricciardo
   team: McLaren
   country: Australia
   country-code: au
-  description: Ricciardo joins McLaren from Renault and will be looking to capitalise on McLaren's improved results in 2020.
+  description:
 - name: Sebastian Vettel
   team: Aston Martin
   country: Germany
   country-code: de
-  description: The four-time champion Vettel moves to the rebranded Aston Martin team bringing his vast experience to the table.
+  description:
 - name: Lance Stroll
   team: Aston Martin
   country: Canada
   country-code: ca
-  description: Stroll's father rebranded the old Racing Point team to Astom Martin which Stroll drives for in his third season.
+  description:
 - name: Pierre Gasly
   team: AlphaTauri
   country: France
   country-code: fr
-  description: After a race win last year, Gasly is kept on at AlphaTauri for a second year.
+  description:
 - name: Yuki Tsunoda
   team: AlphaTauri
   country: Japan
   country-code: jp
-  description: Tsunoda rounds off the year's rookie lineup joining AlphaTauri as part of Red Bull's Young Driver program.
-- name: George Russell
+  description:
+- name: Alexander Albon
   team: Williams
-  country: United Kingdom
-  country-code: gb
-  description: Russell impressed many with his performances under difficult conditions last year. The Mercedes-backed driver aims to show off his talent this season.
+  country: Thailand
+  country-code: th
+  description:
 - name: Nicolas Latifi
   team: Williams
   country: Canada
   country-code: ca
-  description: The canadian Latifi continues his tenure at Williams in his second year with the team.
+  description:

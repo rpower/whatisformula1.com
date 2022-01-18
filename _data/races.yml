@@ -2,131 +2,137 @@
   country: Bahrain
   country-code: bh
   location: Sakhir, Bahrain
-  race-date:  2021-03-28
-  date-formatted: 28th of March
+  race-date:  2022-03-20
+  date-formatted: 20th of March
+- name: Saudi Arabian Grand Prix
+  country: Saudi Arabia
+  country-code: sa
+  location: Jeddah, Saudi Arabia
+  race-date: 2022-03-27
+  date-formatted: 27th of March
+- name: Australian Grand Prix
+  country: Australia
+  country-code: au
+  location: Melbourne, Australia
+  race-date: 2022-04-10
+  date-formatted: 10th of April
 - name: Emilia Romagna Grand Prix
   country: Italy
   country-code: it
   location: Imola, Italy
-  race-date: 2021-04-18
-  date-formatted: 18th of April
-- name: Portuguese Grand Prix
-  country: Portugal
-  country-code: pt
-  location: Portimao, Portugal
-  race-date: 2021-05-02
-  date-formatted: 2nd of May
+  race-date: 2022-04-24
+  date-formatted: 24th of April
+- name: Miami Grand Prix
+  country: United States
+  country-code: us
+  location: Miami, Florida, USA
+  race-date: 2022-05-08
+  date-formatted: 8th of May
 - name: Spanish Grand Prix
   country: Spain
   country-code: es
   location: Barcelona, Spain
-  race-date: 2021-05-09
-  date-formatted: 9th of May
+  race-date: 2022-05-22
+  date-formatted: 22nd of May
 - name: Monaco Grand Prix
   country: Monaco
   country-code: mc
   location: Monte Carlo, Monaco
-  race-date: 2021-05-23
-  date-formatted: 23rd of May
+  race-date: 2022-05-29
+  date-formatted: 29th of May
 - name: Azerbaijan Grand Prix
   country: Azerbaijan
   country-code: az
   location: Baku, Azerbaijan
-  race-date: 2021-06-06
-  date-formatted: 6th of June
-- name: French Grand Prix
-  country: France
-  country-code: fr
-  location: Le Castellet, France
-  race-date: 2021-06-20
-  date-formatted: 20th of June
-- name: Styrian Grand Prix
-  country: Austria
-  country-code: at
-  location: Spielberg, Austria
-  race-date: 2021-06-27
-  date-formatted: 27th of June
-- name: Austrian Grand Prix
-  country: Austria
-  country-code: at
-  location: Spielberg, Austria
-  race-date: 2021-07-04
-  date-formatted: 4th of July
+  race-date: 2022-06-12
+  date-formatted: 12th of June
+- name: Canadian Grand Prix
+  country: Canada
+  country-code: ca
+  location: Montréal, Canada
+  race-date: 2022-06-19
+  date-formatted: 19th of June
 - name: British Grand Prix
   country: Great Britian
   country-code: gb
   location: Silverstone, United Kingdom
-  race-date: 2021-07-18
-  date-formatted: 18th of July
+  race-date: 2022-07-03
+  date-formatted: 3rd of July
+- name: Austrian Grand Prix
+  country: Austria
+  country-code: at
+  location: Spielberg, Austria
+  race-date: 2022-07-10
+  date-formatted: 10th of July
+- name: French Grand Prix
+  country: France
+  country-code: fr
+  location: Le Castellet, France
+  race-date: 2022-06-24
+  date-formatted: 24th of June
 - name: Hungarian Grand Prix
   country: Hungary
   country-code: hu
   location: Budapest, Hungary
-  race-date: 2021-08-01
-  date-formatted: 1st of August
+  race-date: 2022-08-31
+  date-formatted: 31st of August
 - name: Belgian Grand Prix
   country: Belgium
   country-code: be
   location: Spa-Francorchamps, Belgium
-  race-date: 2021-08-29
-  date-formatted: 29th of August
+  race-date: 2022-08-28
+  date-formatted: 28th of August
 - name: Dutch Grand Prix
   country: Netherlands
   country-code: nl
   location: Zandvoort, Netherlands
-  race-date: 2021-09-05
-  date-formatted: 5th of September
+  race-date: 2022-09-04
+  date-formatted: 4th of September
 - name: Italian Grand Prix
   country: Italy
   country-code: it
   location: Monza, Italy
-  race-date: 2021-09-12
-  date-formatted: 12th of September
+  race-date: 2022-09-11
+  date-formatted: 11th of September
 - name: Russian Grand Prix
   country: Russia
   country-code: ru
   location: Sochi, Russia
-  race-date: 2021-09-26
-  date-formatted: 26th of September
-- name: Turkish Grand Prix
-  country: Turkey
-  country-code: tr
-  location: Istanbul, Turkey
-  race-date: 2021-10-10
-  date-formatted: 10th of October
+  race-date: 2022-09-25
+  date-formatted: 25th of September
+- name: Singapore Grand Prix
+  country: Singapore
+  country-code: sg
+  location: Singapore
+  race-date: 2022-10-02
+  date-formatted: 2nd of October
+- name: Japanese Grand Prix
+  country: Japan
+  country-code: jp
+  location: Suzuka, Japan
+  race-date: 2022-10-09
+  date-formatted: 9th of October
 - name: United States Grand Prix
   country: United States
   country-code: us
   location: Austin, USA
-  race-date: 2021-10-24
-  date-formatted: 24th of October
+  race-date: 2022-10-23
+  date-formatted: 23th of October
 - name: Mexican Grand Prix
   country: Mexico
   country-code: mx
   location: Mexico City, Mexico
-  race-date: 2021-11-07
-  date-formatted: 7th of November
+  race-date: 2022-10-30
+  date-formatted: 30th of October
 - name: Brazilian Grand Prix
   country: Brazil
   country-code: br
   location: Sao Paulo, Brazil
-  race-date: 2021-11-14
-  date-formatted: 14th of November
-- name: Qatar Grand Prix
-  country: Qatar
-  country-code: qa
-  location: Lusail, Qatar
-  race-date: 2021-11-21
-  date-formatted: 21st of November
-- name: Saudi Arabian Grand Prix
-  country: Saudi Arabia
-  country-code: sa
-  location: Saudi Arabia
-  race-date: 2021-12-06
-  date-formatted: 6th of December
+  race-date: 2022-11-13
+  date-formatted: 13th of November
 - name: Abu Dhabi Grand Prix
   country: Abu Dhabi
   country-code: ae
   location: Abu Dhabi, UAE
-  race-date: 2021-12-12
-  date-formatted: 12th of December
+  race-date: 2022-11-20
+  date-formatted: 20th of November
