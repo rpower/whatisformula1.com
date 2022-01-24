@@ -159,11 +159,7 @@
 
 <script src="{{ site.baseurl }}/assets/js/ie10-viewport-bug-workaround.js"></script>
 
-{%- if site.environment == "production" -%}
-	{%- assign ga_measurement_id = "G-R8KWF3G3GL" -%}
-{%- else -%}
-	{%- assign ga_measurement_id = "G-D15JL7XT0Y" -%}
-{%- endif -%}
+{%- assign ga_measurement_id = "G-R8KWF3G3GL" -%}
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id={{ ga_measurement_id }}"></script>
