@@ -94,12 +94,6 @@
   location: Monza, Italy
   race-date: 2022-09-11
   date-formatted: 11th of September
-- name: Russian Grand Prix
-  country: Russia
-  country-code: ru
-  location: Sochi, Russia
-  race-date: 2022-09-25
-  date-formatted: 25th of September
 - name: Singapore Grand Prix
   country: Singapore
   country-code: sg
