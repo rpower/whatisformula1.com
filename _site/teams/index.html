@@ -57,15 +57,15 @@
             <ul class="navbar-nav ml-auto">
 
                 <li class="nav-item nav-left">
-                <a class="nav-link" href="/calendar/">Next Race</a>
+                <a class="nav-link" href="/calendar/?c=top">Next Race</a>
                 </li>
 
                 <li class="nav-item nav-center">
-                <a class="nav-link" href="/">What is FORMULA 1?</a>
+                <a class="nav-link" href="/?c=top">What is FORMULA 1?</a>
                 </li>
 
                 <li class="nav-item nav-right">
-                <a class="nav-link" href="/rules/">Rules</a>
+                <a class="nav-link" href="/rules/?c=top">Rules</a>
                 </li>
 
             </ul>
@@ -260,7 +260,7 @@
           <div class="maxthumb"><img class="card-img-top img-fluid" src="/assets/images/pages/haas-pit-lane-rain-small.jpg" alt="The black Haas car waits in the pit lane in the rain"></div>
             <div class="card-body">
                 <h2 class="card-title">
-                    <a class="text-dark stretched-link" href="/rules/">
+                    <a class="text-dark stretched-link" href="/rules/?c=postbox">
                       Rules
                     </a>
                 </h2>
@@ -275,7 +275,7 @@
           <div class="maxthumb"><img class="card-img-top img-fluid" src="/assets/images/pages/max-race-win-small.jpg" alt="A Formula 1 driver, Max Verstappen, raises his hands in celebration"></div>
             <div class="card-body">
                 <h2 class="card-title">
-                    <a class="text-dark stretched-link" href="/drivers/">
+                    <a class="text-dark stretched-link" href="/drivers/?c=postbox">
                       Drivers
                     </a>
                 </h2>
@@ -290,7 +290,7 @@
           <div class="maxthumb"><img class="card-img-top img-fluid" src="/assets/images/pages/monaco-hairpin-small.jpg" alt="Multiple Formula 1 cars are navigating a tight hairpin at the Monaco Grand Prix"></div>
             <div class="card-body">
                 <h2 class="card-title">
-                    <a class="text-dark stretched-link" href="/calendar/">
+                    <a class="text-dark stretched-link" href="/calendar/?c=postbox">
                       Calendar
                     </a>
                 </h2>
@@ -305,7 +305,7 @@
           <div class="maxthumb"><img class="card-img-top img-fluid" src="/assets/images/pages/senna-rain-small.jpg" alt="An old McLaren car driven by Ayrton Senna kicks up spray during a wet race"></div>
             <div class="card-body">
                 <h2 class="card-title">
-                    <a class="text-dark stretched-link" href="/history/">
+                    <a class="text-dark stretched-link" href="/history/?c=postbox">
                       History
                     </a>
                 </h2>
@@ -320,7 +320,7 @@
           <div class="maxthumb"><img class="card-img-top img-fluid" src="/assets/images/pages/mclaren-pit-stop-austria-small.jpg" alt="Close-up of a McLaren Formula 1 car during a pit stop"></div>
             <div class="card-body">
                 <h2 class="card-title">
-                    <a class="text-dark stretched-link" href="/pitstops/">
+                    <a class="text-dark stretched-link" href="/pitstops/?c=postbox">
                       Pit Stops
                     </a>
                 </h2>
@@ -335,7 +335,7 @@
           <div class="maxthumb"><img class="card-img-top img-fluid" src="/assets/images/pages/ferrari-us-gp-small.jpg" alt="The red Ferrari car travelling through the turns in a race"></div>
             <div class="card-body">
                 <h2 class="card-title">
-                    <a class="text-dark stretched-link" href="/teams/">
+                    <a class="text-dark stretched-link" href="/teams/?c=postbox">
                       Teams
                     </a>
                 </h2>
@@ -380,12 +380,28 @@
 <script src="/assets/js/mediumish.js"></script><script src="/assets/js/ie10-viewport-bug-workaround.js"></script><!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-R8KWF3G3GL"></script>
 <script>
+  function getParameterByName(name, url = window.location.href) {
+    name = name.replace(/[\[\]]/g, '\\$&');
+    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+  }
+  cta_ref_parameter = getParameterByName('c');
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-R8KWF3G3GL');
-</script>
+  gtag('set', 'page_title', 'teams');
 
+  gtag('config', 'G-R8KWF3G3GL', {
+    send_page_view: false
+  });
+
+  gtag('event', 'page_view', {
+    'cta_ref': cta_ref_parameter
+  });
+</script>
 </body>
 </html>

@@ -1,0 +1,28 @@
+{%- assign ga_measurement_id = "G-R8KWF3G3GL" -%}
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ ga_measurement_id }}"></script>
+<script>
+  function getParameterByName(name, url = window.location.href) {
+    name = name.replace(/[\[\]]/g, '\\$&');
+    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+  }
+  cta_ref_parameter = getParameterByName('c');
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('set', 'page_title', '{{ page.title | downcase }}');
+
+  gtag('config', '{{ ga_measurement_id }}', {
+    send_page_view: false
+  });
+
+  gtag('event', 'page_view', {
+    'cta_ref': cta_ref_parameter
+  });
+</script>

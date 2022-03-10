@@ -45,15 +45,15 @@
             <ul class="navbar-nav ml-auto">
 
                 <li class="nav-item nav-left">
-                <a class="nav-link" href="{%- link _pages/calendar.md -%}">Next Race</a>
+                <a class="nav-link" href="{%- link _pages/calendar.md -%}?c=top">Next Race</a>
                 </li>
 
                 <li class="nav-item nav-center">
-                <a class="nav-link" href="{{ site.baseurl }}/">{{ site.name }}</a>
+                <a class="nav-link" href="{{ site.baseurl }}/?c=top">{{ site.name }}</a>
                 </li>
 
                 <li class="nav-item nav-right">
-                <a class="nav-link" href="{%- link _pages/rules.md -%}">Rules</a>
+                <a class="nav-link" href="{%- link _pages/rules.md -%}?c=top">Rules</a>
                 </li>
 
             </ul>
@@ -83,7 +83,7 @@
 			{%- assign sorted_pages = site.pages | sort: 'order' -%}
 			{%- for sorted_page in sorted_pages -%}
 				{%- if sorted_page.order -%}
-					<li class="nav-item"><a class="text-light" href="{{ site.baseurl }}{{ sorted_page.url }}">
+					<li class="nav-item"><a class="text-light" href="{{ site.baseurl }}{{ sorted_page.url }}?c=midbar">
 						{{ sorted_page.title }}
 					</a></li>
 				{%- endif -%}
@@ -159,17 +159,7 @@
 
 <script src="{{ site.baseurl }}/assets/js/ie10-viewport-bug-workaround.js"></script>
 
-{%- assign ga_measurement_id = "G-R8KWF3G3GL" -%}
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ ga_measurement_id }}"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', '{{ ga_measurement_id }}');
-</script>
+{%- include analytics.html -%}
 
 </body>
 </html>
