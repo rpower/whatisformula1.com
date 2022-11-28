@@ -7,7 +7,7 @@ image-alt-text: A Formula 1 driver, Max Verstappen, raises his hands in celebrat
 in-page-image: max-az-gp-grid
 in-page-image-caption: Red Bull driver Max Verstappen ahead of the 2019 Azerbaijan Grand Prix
 in-page-image-alt-text: Close-up of a Formula 1 car waiting on the starting grid while mechanics attend to the car and the driver sits on top of the car
-preview-text: Learn about the 20 drivers competing in the 2022 Formula 1 championship including Max Verstappen, the defending World Drivers' Champion, who is looking to win his 2nd championship this year.
+preview-text: Learn about the 20 drivers competing in the 2023 Formula 1 championship including Max Verstappen, the defending World Drivers' Champion, who is looking to win his 2nd championship this year.
 image-credit: Mark Thompson / Getty Images
 order: 2
 ---
