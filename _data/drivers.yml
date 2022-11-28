@@ -29,10 +29,10 @@
   country: Mexico
   country-code: mx
   description:
-- name: Fernando Alonso
+- name: Pierre Gasly
   team: Alpine
-  country: Spain
-  country-code: es
+  country: France
+  country-code: fr
   description:
 - name: Esteban Ocon
   team: Alpine
@@ -49,7 +49,7 @@
   country: China
   country-code: cn
   description:
-- name: Mick Schumacher
+- name: Nico Hülkenberg
   team: Haas
   country: Germany
   country-code: de
@@ -64,25 +64,25 @@
   country: United Kingdom
   country-code: gb
   description:
-- name: Daniel Ricciardo
+- name: Oscar Piastri
   team: McLaren
   country: Australia
   country-code: au
   description:
-- name: Sebastian Vettel
+- name: Fernando Alonso
   team: Aston Martin
-  country: Germany
-  country-code: de
+  country: Spain
+  country-code: es
   description:
 - name: Lance Stroll
   team: Aston Martin
   country: Canada
   country-code: ca
   description:
-- name: Pierre Gasly
+- name: Nyck de Vries
   team: AlphaTauri
-  country: France
-  country-code: fr
+  country: Netherlands
+  country-code: nl
   description:
 - name: Yuki Tsunoda
   team: AlphaTauri
@@ -94,8 +94,8 @@
   country: Thailand
   country-code: th
   description:
-- name: Nicolas Latifi
+- name: Logan Sargeant
   team: Williams
-  country: Canada
-  country-code: ca
+  country: United States
+  country-code: us
   description:
