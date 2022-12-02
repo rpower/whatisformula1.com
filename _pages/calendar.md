@@ -12,7 +12,7 @@ image-credit: Dan Istitene / Getty Images
 order: 4
 ---
 
-The 2023 Formula 1 season will feature 24 races including the new <img src="/assets/images/flag_placeholder.png" class="flag flag-us ml-1 mb-2" /> <span class="pl-1 font-weight-bold">Las Vegas Grand Prix</span> and the returning <img src="/assets/images/flag_placeholder.png" class="flag flag-cn ml-1 mb-2" /> <span class="pl-1 font-weight-bold">Chinese Grand Prix</span>.
+The 2023 Formula 1 season will feature 24 races including the new <img src="/assets/images/flag_placeholder.png" class="flag flag-us ml-1 mb-2" /> <span class="pl-1 font-weight-bold">Las Vegas Grand Prix</span>.
 
 <div class="alert alert-primary" role="alert">
 The next race is the <img src="/assets/images/flag_placeholder.png" class="flag ml-1 mb-2" id="nextraceimg" /> <span class="pl-1 font-weight-bold" id="nextracename">{{ next_race }}</span> held in <span class="font-weight-bold" id="nextracelocation"></span> on the <span class="font-weight-bold" id="nextracedate"></span>.

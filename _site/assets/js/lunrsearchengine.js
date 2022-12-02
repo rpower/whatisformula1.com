@@ -6,7 +6,7 @@ var documents = [{
     "id": 1,
     "url": "https://www.whatisformula1.com/calendar/",
     "title": "Calendar",
-    "body": "The 2023 Formula 1 season will feature 24 races including the new Las Vegas Grand Prix and the returning Chinese Grand Prix. The next race is the {{ next_race }} held in on the . Below is the calendar of races that have been confirmed so far for the 2023 Formula 1 season:       Race       Date    {%- for race in site. data. races -%}          {{ race. name }}          {{ race. race-date | date:  %d %b  }}      {%- endfor -%}"},{
+    "body": "The 2023 Formula 1 season will feature 24 races including the new Las Vegas Grand Prix. The next race is the {{ next_race }} held in on the . Below is the calendar of races that have been confirmed so far for the 2023 Formula 1 season:       Race       Date    {%- for race in site. data. races -%}          {{ race. name }}          {{ race. race-date | date:  %d %b  }}      {%- endfor -%}"},{
     "id": 2,
     "url": "https://www.whatisformula1.com/contact/",
     "title": "Contact",
