@@ -16,12 +16,6 @@
   location: Melbourne, Australia
   race-date: 2023-04-02
   date-formatted: 2nd of April
-- name: Chinese Grand Prix
-  country: China
-  country-code: cn
-  location: Shanghai, China
-  race-date: 2023-04-16
-  date-formatted: 16th of April
 - name: Azerbaijan Grand Prix
   country: Azerbaijan
   country-code: az
