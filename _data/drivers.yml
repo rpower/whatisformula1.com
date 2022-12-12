@@ -3,99 +3,99 @@
   country: United Kingdom
   country-code: gb
   code: ham
-  description:
+  description: Lewis is a six-time Formula One World Champion and has won a record-equalling seven British Grand Prix. He is widely considered one of the greatest drivers in the history of the sport.
 - name: George Russell
   team: Mercedes
   country: United Kingdom
   country-code: gb
-  description:
+  description: George Russell is a British racing driver known for his speed and tenacity. He has a successful track record in lower racing categories and has performed well in Formula 1, including scoring his first race win with Mercedes in 2022. He has been signed to Mercedes' junior program since 2017.
 - name: Carlos Sainz
   team: Ferrari
   country: Spain
   country-code: es
-  description:
+  description: Carlos Sainz is a Spanish racing driver who entered Formula 1 in 2015 with Toro Rosso. Known for his fighting spirit and intelligent approach to racing, he has earned the nickname "Chilli". In 2022, he scored his first Formula 1 win at Silverstone. He is the son of double World Rally champion Carlos Sainz Sr.
 - name: Charles Leclerc
   team: Ferrari
   country: Monaco
   country-code: mc
-  description:
+  description: Charles Leclerc is a Monegasque racing driver who competes in Formula 1 for Scuderia Ferrari. He arrived in F1 in 2018 after winning back-to-back championships in GP3 and Formula 2. He is known for his speed and ability to handle pressure. In 2022, he emerged as a true title contender, scoring three wins and 11 podiums. He races in memory of his late father and his friend and mentor, Jules Bianchi.
 - name: Max Verstappen
   team: Red Bull
   country: Netherlands
   country-code: nl
-  description:
+  description: Max is known for his aggressive and instinctive racing style. He became the sport's youngest points scorer and race winner, and won his first F1 drivers' championship in 2021. He followed that up with a dominant title defense in 2022, winning a record 15 races. He is the son of former F1 driver Jos Verstappen and super-quick karting mother Sophie Kumpen.
 - name: Sergio Pérez
   team: Red Bull
   country: Mexico
   country-code: mx
-  description:
+  description: Sergio is known for his aggressive and smooth driving styles, and has been successful in the sport, accumulating the most points of any Mexican in F1 history. He has provided strong support to Max Verstappen's championship-winning campaigns in 2021 and 2022, and has added three more victories to his own tally.
 - name: Pierre Gasly
   team: Alpine
   country: France
   country-code: fr
-  description:
+  description: Pierre made his F1 debut in 2017 and was promoted to the Red Bull Racing team in 2018. However, he struggled to perform at the same level as his teammate Max Verstappen and was demoted back to Toro Rosso in 2019. In 2020, he scored his first F1 win at the AlphaTauri team's home race in Italy. Gasly will be joining the Alpine team for the 2022 season.
 - name: Esteban Ocon
   team: Alpine
   country: France
   country-code: fr
-  description:
+  description: Esteban is known for his self-belief, determination, and talent, which have helped him rise through the ranks of motorsport. Ocon's parents sold their house and put their jobs on hold to support their son's career. In 2021, he scored his first F1 win for Alpine.
 - name: Valtteri Bottas
   team: Alfa Romeo
   country: Finland
   country-code: fi
-  description:
-- name: Guanyu Zhou
+  description: Valtteri started his F1 career with Williams in 2013 and joined Mercedes in 2017, where he won four races and finished second in the drivers' championship in 2019. Bottas struggled to match the pace of his Mercedes teammate Lewis Hamilton in the following seasons, and in 2022 he left Mercedes to join Alfa Romeo. He is known for his reserved, diligent, and calm demeanor, which has helped him to be successful in F1.
+- name: Zhou Guanyu
   team: Alfa Romeo
   country: China
   country-code: cn
-  description:
+  description: Zhou Guanyu has become China's first-ever F1 driver after receiving the call-up to make his debut for Alfa Romeo in 2022. The Shanghai-born racer moved to England with his family aged 12 to pursue his motorsport ambitions and has since become a member of Ferrari's driver academy. In 2021, Zhou challenged for the Formula 2 drivers' title and impressed Alfa Romeo Team Principal Fred Vasseur enough to earn a spot in the team.
 - name: Nico Hülkenberg
   team: Haas
   country: Germany
   country-code: de
-  description:
+  description: Nico is scheduled to make a full-time racing return to Formula 1 with Haas F1 Team in 2023 after serving as a reserve driver for Aston Martin F1 Team in 2022. He holds the record for the most Formula One career starts without a podium finish and the most career points without a single race win.
 - name: Kevin Magnussen
   team: Haas
   country: Denmark
   country-code: dk
-  description:
+  description: Kevin is the son of former Formula One driver and four-time Le Mans winner, Jan Magnussen. He has previously driven for teams including McLaren and Renault, and rejoined Haas on a multi-year deal in 2022.
 - name: Lando Norris
   team: McLaren
   country: United Kingdom
   country-code: gb
-  description:
+  description: Lando is known for his flair and fighting spirit on the track, and has established himself as a top tier F1 driver. He has also shown a modest charm and an artistic side, designing and painting his own race gear as a hobby.
 - name: Oscar Piastri
   team: McLaren
   country: Australia
   country-code: au
-  description:
+  description: Oscar Piastri is an Australian racing driver who will make his Formula One debut in 2023, driving for McLaren. Piastri won the 2019 Formula Renault Eurocup and the 2020 Formula 3 Championship, and he is only the sixth driver to win the GP2/Formula 2 Championship in their rookie season.
 - name: Fernando Alonso
   team: Aston Martin
   country: Spain
   country-code: es
-  description:
+  description: Fernando is a fiercely competitive Formula 1 driver known for his blistering speed, excellent tactical thinking, and relentless determination to win. He has won two world championships and is regarded as one of the best drivers in the sport. In 2021, he returned to F1 racing with Alpine after a two-year absence.
 - name: Lance Stroll
   team: Aston Martin
   country: Canada
   country-code: ca
-  description:
+  description: Stroll is a teenage racing sensation with a talent for wet weather driving. He made his Formula 1 debut with Williams in 2017 and quickly made a name for himself, becoming the youngest rookie to reach the podium in Baku. He continued to impress, setting records and becoming the youngest driver to start on the front row in Monza. In 2020, he earned his first pole position and two additional podium finishes.
 - name: Nyck de Vries
   team: AlphaTauri
   country: Netherlands
   country-code: nl
-  description:
+  description: Nyck de Vries is a Dutch racing driver who currently serves as the reserve driver for the Mercedes-AMG Petronas F1 Team. He is set to drive full-time for Scuderia AlphaTauri in 2023. De Vries has won several championships, including the 2020-21 Formula E World Championship, the 2019 FIA Formula 2 Championship, and the 2010 and 2011 Karting World Championships. He made his Formula One debut in September 2022 for Williams at the Italian Grand Prix.
 - name: Yuki Tsunoda
   team: AlphaTauri
   country: Japan
   country-code: jp
-  description:
+  description: Yuki Tsunoda, could potentially be the first Japanese driver to win a Formula 1 World Championship Grand Prix. Red Bull Racing sees great potential in Tsunoda, and he is considered a promising candidate to join the team's senior roster if he continues to impress. He is known for his impressive speed and race craft, having finished third in the 2019 Formula 2 Championship and picking up three wins along the way.
 - name: Alexander Albon
   team: Williams
   country: Thailand
   country-code: th
-  description:
+  description: Albon is currently racing for the Williams team in Formula 1. He made his F1 debut in 2019 with Toro Rosso, earning a promotion to Red Bull Racing mid-season. After a tough 2020 season, he was retained as test and reserve driver and returned to the grid with Williams in 2022. He is known for his over-taking style and championship mentality.
 - name: Logan Sargeant
   team: Williams
   country: United States
   country-code: us
-  description:
+  description: Logan Sargeant is an American racing driver who will compete in the 2023 Formula One World Championship with Williams Racing. He previously competed in the FIA Formula 2 Championship with Carlin. He is a member of the Williams Driver Academy.

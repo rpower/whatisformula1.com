@@ -14,7 +14,7 @@ order: 2
 
 <div class="container">
   <div class="row align-middle">
-    <div class="col-6">
+    <div class="col-4">
       <strong>Driver</strong>
     </div>
     <div class="col">
@@ -29,15 +29,15 @@ order: 2
     {%- else -%}
       <div class="row align-middle pb-1">
     {%- endif -%}
-      <div class="col-6">
+      <div class="col-6 col-sm-4">
          <img src="/assets/images/flag_placeholder.png" class="flag flag-{{ driver.country-code }}" /> <span class="pl-1">{{ driver.name }}</span>
       </div>
-      <div class="col-6 col-sm-4">
+      <div class="col-6 col-sm-2">
         {{ driver.team }}
       </div>
-      <!-- <div class="col-12 col-sm px-3 pb-1 small">
+      <div class="col-12 col-sm px-3 pb-1 small">
           {{ driver.description }}
-      </div> -->
+      </div>
     </div>
 
   {%- assign driver_number = driver_number | plus: 1 -%}
