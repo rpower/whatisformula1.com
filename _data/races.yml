@@ -2,137 +2,143 @@
   country: Bahrain
   country-code: bh
   location: Sakhir, Bahrain
-  race-date:  2023-03-05
-  date-formatted: 5th of March
+  race-date:  2024-03-02
+  date-formatted: 2nd of March
 - name: Saudi Arabian Grand Prix
   country: Saudi Arabia
   country-code: sa
   location: Jeddah, Saudi Arabia
-  race-date: 2023-03-19
-  date-formatted: 19th of March
+  race-date: 2024-03-09
+  date-formatted: 9th of March
 - name: Australian Grand Prix
   country: Australia
   country-code: au
   location: Melbourne, Australia
-  race-date: 2023-04-02
-  date-formatted: 2nd of April
-- name: Azerbaijan Grand Prix
-  country: Azerbaijan
-  country-code: az
-  location: Baku, Azerbaijan
-  race-date: 2023-04-30
-  date-formatted: 30th of April
-- name: Miami Grand Prix
-  country: United States
-  country-code: us
-  location: Miami, Florida, USA
-  race-date: 2023-05-07
-  date-formatted: 7th of May
-- name: Emilia Romagna Grand Prix
-  country: Italy
-  country-code: it
-  location: Imola, Italy
-  race-date: 2023-05-21
-  date-formatted: 21st of May
-- name: Monaco Grand Prix
-  country: Monaco
-  country-code: mc
-  location: Monte Carlo, Monaco
-  race-date: 2023-05-28
-  date-formatted: 28th of May
-- name: Spanish Grand Prix
-  country: Spain
-  country-code: es
-  location: Barcelona, Spain
-  race-date: 2023-06-04
-  date-formatted: 4th of June
-- name: Canadian Grand Prix
-  country: Canada
-  country-code: ca
-  location: Montréal, Canada
-  race-date: 2023-06-18
-  date-formatted: 18th of June
-- name: Austrian Grand Prix
-  country: Austria
-  country-code: at
-  location: Spielberg, Austria
-  race-date: 2023-07-02
-  date-formatted: 2nd of July
-- name: British Grand Prix
-  country: Great Britian
-  country-code: gb
-  location: Silverstone, United Kingdom
-  race-date: 2023-07-09
-  date-formatted: 9th of July
-- name: Hungarian Grand Prix
-  country: Hungary
-  country-code: hu
-  location: Budapest, Hungary
-  race-date: 2023-07-23
-  date-formatted: 23rd of July
-- name: Belgian Grand Prix
-  country: Belgium
-  country-code: be
-  location: Spa-Francorchamps, Belgium
-  race-date: 2023-07-30
-  date-formatted: 30th of July
-- name: Dutch Grand Prix
-  country: Netherlands
-  country-code: nl
-  location: Zandvoort, Netherlands
-  race-date: 2023-08-27
-  date-formatted: 27th of August
-- name: Italian Grand Prix
-  country: Italy
-  country-code: it
-  location: Monza, Italy
-  race-date: 2023-09-03
-  date-formatted: 3rd of September
-- name: Singapore Grand Prix
-  country: Singapore
-  country-code: sg
-  location: Singapore
-  race-date: 2023-09-17
-  date-formatted: 17th of September
+  race-date: 2024-03-24
+  date-formatted: 24th of March
 - name: Japanese Grand Prix
   country: Japan
   country-code: jp
   location: Suzuka, Japan
-  race-date: 2023-09-24
-  date-formatted: 24th of September
-- name: Qatar Grand Prix
-  country: Qatar
-  country-code: qa
-  location: Lusail, Qatar
-  race-date: 2023-10-08
-  date-formatted: 8th of October
+  race-date: 2024-04-07
+  date-formatted: 7th of April
+- name: Chinese Grand Prix
+  country: China
+  country-code: cn
+  location: Shanghai, China
+  race-date: 2024-04-21
+  date-formatted: 21st of April
+- name: Miami Grand Prix
+  country: United States
+  country-code: us
+  location: Miami, Florida, USA
+  race-date: 2024-05-05
+  date-formatted: 5th of May
+- name: Emilia Romagna Grand Prix
+  country: Italy
+  country-code: it
+  location: Imola, Italy
+  race-date: 2024-05-19
+  date-formatted: 19th of May
+- name: Monaco Grand Prix
+  country: Monaco
+  country-code: mc
+  location: Monte Carlo, Monaco
+  race-date: 2024-05-26
+  date-formatted: 26th of May
+- name: Canadian Grand Prix
+  country: Canada
+  country-code: ca
+  location: Montréal, Canada
+  race-date: 2024-06-09
+  date-formatted: 9th of June
+- name: Spanish Grand Prix
+  country: Spain
+  country-code: es
+  location: Barcelona, Spain
+  race-date: 2024-06-23
+  date-formatted: 23rd of June
+- name: Austrian Grand Prix
+  country: Austria
+  country-code: at
+  location: Spielberg, Austria
+  race-date: 2024-06-30
+  date-formatted: 30th of June
+- name: British Grand Prix
+  country: Great Britian
+  country-code: gb
+  location: Silverstone, United Kingdom
+  race-date: 2024-07-07
+  date-formatted: 7th of July
+- name: Hungarian Grand Prix
+  country: Hungary
+  country-code: hu
+  location: Budapest, Hungary
+  race-date: 2024-07-21
+  date-formatted: 21st of July
+- name: Belgian Grand Prix
+  country: Belgium
+  country-code: be
+  location: Spa-Francorchamps, Belgium
+  race-date: 2024-07-28
+  date-formatted: 28th of July
+- name: Dutch Grand Prix
+  country: Netherlands
+  country-code: nl
+  location: Zandvoort, Netherlands
+  race-date: 2024-08-25
+  date-formatted: 25th of August
+- name: Italian Grand Prix
+  country: Italy
+  country-code: it
+  location: Monza, Italy
+  race-date: 2024-09-01
+  date-formatted: 1st of September
+- name: Azerbaijan Grand Prix
+  country: Azerbaijan
+  country-code: az
+  location: Baku, Azerbaijan
+  race-date: 2024-09-15
+  date-formatted: 15th of September
+- name: Singapore Grand Prix
+  country: Singapore
+  country-code: sg
+  location: Singapore
+  race-date: 2024-09-22
+  date-formatted: 22nd of September
 - name: United States Grand Prix
   country: United States
   country-code: us
   location: Austin, USA
-  race-date: 2023-10-22
-  date-formatted: 22nd of October
+  race-date: 2024-10-20
+  date-formatted: 20th of October
 - name: Mexican Grand Prix
   country: Mexico
   country-code: mx
   location: Mexico City, Mexico
-  race-date: 2023-10-29
-  date-formatted: 29th of October
+  race-date: 2024-10-27
+  date-formatted: 27th of October
 - name: Brazilian Grand Prix
   country: Brazil
   country-code: br
   location: Sao Paulo, Brazil
-  race-date: 2023-11-05
-  date-formatted: 5th of November
+  race-date: 2024-11-03
+  date-formatted: 3rd of November
 - name: Las Vegas Grand Prix
   country: United States
   country-code: us
   location: Las Vegas, USA
-  race-date: 2023-10-18
-  date-formatted: 18th of October
+  race-date: 2024-11-23
+  date-formatted: 23rd of October
+- name: Qatar Grand Prix
+  country: Qatar
+  country-code: qa
+  location: Lusail, Qatar
+  race-date: 2024-12-01
+  date-formatted: 1st of December
 - name: Abu Dhabi Grand Prix
   country: Abu Dhabi
   country-code: ae
   location: Abu Dhabi, UAE
-  race-date: 2023-11-26
-  date-formatted: 26th of November
+  race-date: 2024-12-08
+  date-formatted: 8th of December
